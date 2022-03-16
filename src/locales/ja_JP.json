@@ -1,29 +1,29 @@
 {
-	"first_key": "",
-	"name": "",
-	"descr": "",
-	"fav-food": [
-		"",
-		"",
-		""
-	],
-	"cityLabel": "",
-	"countryLabel": "",
-	"job": "",
-	"skill": "",
-	"employed": "",
-	"foods": [
-		"",
-		"",
-		"",
-		""
-	],
-	"languages": {
-		"perl": "",
-		"python": "",
-		"pascal": ""
-	},
-	"education": "",
-	"tagline": "",
-	"segmentation": ""
+    "cityLabel": "",
+    "countryLabel": "",
+    "descr": "",
+    "education": "",
+    "employed": "",
+    "fav-food": [
+        "",
+        "",
+        ""
+    ],
+    "first_key": "",
+    "foods": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "job": "",
+    "languages": {
+        "pascal": "",
+        "perl": "",
+        "python": ""
+    },
+    "name": "",
+    "segmentation": "",
+    "skill": "",
+    "tagline": ""
 }

@@ -1,4 +1,29 @@
 {
-"name": "Nombre",
-"descr": "Introduce aquí tu descripción"
+    "cityLabel": "",
+    "countryLabel": "",
+    "descr": "",
+    "education": "",
+    "employed": "",
+    "fav-food": [
+        "",
+        "",
+        ""
+    ],
+    "first_key": "",
+    "foods": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "job": "",
+    "languages": {
+        "pascal": "",
+        "perl": "",
+        "python": ""
+    },
+    "name": "",
+    "segmentation": "",
+    "skill": "",
+    "tagline": ""
 }
