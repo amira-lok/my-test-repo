@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-US" target-language="en">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="first_key">
+				<source>My beautiful cat is white.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Name</source>
+				<target>Martin D'vloper</target>
+			</trans-unit>
+			<trans-unit id="descr">
+				<source>Enter your description here</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="fav-food::0">
+				<source>Beef</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="fav-food::1">
+				<source>Carrots</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="fav-food::2">
+				<source>Peas</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="cityLabel">
+				<source>City</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="countryLabel">
+				<source>Country</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="job">
+				<source></source>
+				<target>Developer</target>
+			</trans-unit>
+			<trans-unit id="skill">
+				<source></source>
+				<target>Elite</target>
+			</trans-unit>
+			<trans-unit id="employed">
+				<source></source>
+				<target>1</target>
+			</trans-unit>
+			<trans-unit id="foods::0">
+				<source></source>
+				<target>Apple</target>
+			</trans-unit>
+			<trans-unit id="foods::1">
+				<source></source>
+				<target>Orange</target>
+			</trans-unit>
+			<trans-unit id="foods::2">
+				<source></source>
+				<target>Strawberry</target>
+			</trans-unit>
+			<trans-unit id="foods::3">
+				<source></source>
+				<target>Mango</target>
+			</trans-unit>
+			<trans-unit id="languages::perl">
+				<source></source>
+				<target>Elite</target>
+			</trans-unit>
+			<trans-unit id="languages::python">
+				<source></source>
+				<target>Elite</target>
+			</trans-unit>
+			<trans-unit id="languages::pascal">
+				<source></source>
+				<target>Lame</target>
+			</trans-unit>
+			<trans-unit id="education">
+				<source></source>
+				<target>4 GCSEs 3 A-Levels BSc in the Internet of Things</target>
+			</trans-unit>
+			<trans-unit id="tagline">
+				<source>New test</source>
+				<target>Just do it: SMILE and be happy</target>
+			</trans-unit>
+			<trans-unit id="segmentation">
+				<source>Now it is not empty.     </source>
+				<target>This is a very long sentence for segmentation. Another segment. And another one. And the final one. And do not forget about me!!! List: check the colon rules.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

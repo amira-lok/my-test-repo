@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-US" target-language="it-IT">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="first_key">
+				<source>My beautiful cat is white.</source>
+				<target>Il mio bellissimo gatto è bianco.</target>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Name</source>
+				<target>Nome</target>
+			</trans-unit>
+			<trans-unit id="descr">
+				<source>Enter your description here</source>
+				<target>Inserisci qui la tua descrizione</target>
+			</trans-unit>
+			<trans-unit id="fav-food::0">
+				<source>Beef</source>
+				<target>Manzo</target>
+			</trans-unit>
+			<trans-unit id="fav-food::1">
+				<source>Carrots</source>
+				<target>Carote</target>
+			</trans-unit>
+			<trans-unit id="fav-food::2">
+				<source>Peas</source>
+				<target>Piselli</target>
+			</trans-unit>
+			<trans-unit id="cityLabel">
+				<source>City</source>
+				<target>Città</target>
+			</trans-unit>
+			<trans-unit id="countryLabel">
+				<source>Country</source>
+				<target>Paese</target>
+			</trans-unit>
+			<trans-unit id="job">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="skill">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="employed">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="foods::0">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="foods::1">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="foods::2">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="foods::3">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="languages::perl">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="languages::python">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="languages::pascal">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="education">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="tagline">
+				<source>New test</source>
+				<target>Nuova prova</target>
+			</trans-unit>
+			<trans-unit id="segmentation">
+				<source>Now it is not empty.     </source>
+				<target>Ora non è vuoto.     </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
