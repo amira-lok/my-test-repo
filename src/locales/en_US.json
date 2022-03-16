@@ -1,6 +1,6 @@
 {
 	"first_key": "",
-	"name": "Martin D'vloper",
+	"name": "",
 	"descr": "",
 	"fav-food": [
 		"",
@@ -9,21 +9,21 @@
 	],
 	"cityLabel": "",
 	"countryLabel": "",
-	"job": "Developer",
-	"skill": "Elite",
-	"employed": "1",
+	"job": "",
+	"skill": "",
+	"employed": "",
 	"foods": [
-		"Apple",
-		"Orange",
-		"Strawberry",
-		"Mango"
+		"",
+		"",
+		"",
+		""
 	],
 	"languages": {
-		"perl": "Elite",
-		"python": "Elite",
-		"pascal": "Lame"
+		"perl": "",
+		"python": "",
+		"pascal": ""
 	},
-	"education": "4 GCSEs 3 A-Levels BSc in the Internet of Things",
-	"tagline": "Just do it: SMILE and be happy",
-	"segmentation": "This is a very long sentence for segmentation. Another segment. And another one. And the final one. And do not forget about me!!! List: check the colon rules."
+	"education": "",
+	"tagline": "",
+	"segmentation": ""
 }
