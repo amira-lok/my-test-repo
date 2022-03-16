@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-US" target-language="ja_JP">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="cityLabel">
+				<source>City</source>
+				<target>市</target>
+			</trans-unit>
+			<trans-unit id="countryLabel">
+				<source>Country</source>
+				<target>国</target>
+			</trans-unit>
+			<trans-unit id="descr">
+				<source>Enter your description here</source>
+				<target>ここに説明を入力してください</target>
+			</trans-unit>
+			<trans-unit id="fav-food::0">
+				<source>Beef</source>
+				<target>牛肉</target>
+			</trans-unit>
+			<trans-unit id="fav-food::1">
+				<source>Carrots</source>
+				<target>人参</target>
+			</trans-unit>
+			<trans-unit id="fav-food::2">
+				<source>Peas</source>
+				<target>豆</target>
+			</trans-unit>
+			<trans-unit id="first_key">
+				<source>My beautiful cat is white.</source>
+				<target>私の美しい猫は白いです。</target>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Name</source>
+				<target>名前</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
