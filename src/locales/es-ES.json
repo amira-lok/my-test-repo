@@ -1,4 +1,12 @@
 {
-"name": "Nombre",
-"descr": "Introduce aquí tu descripción"
+        "first_key": "Mi hermoso gato es blanco.",
+        "name": "Nombre",
+        "descr": "Ingrese su descripción aquí",
+        "fav-food": [
+                "Carne de res",
+                "Zanahorias",
+                "Guisantes"
+        ],
+        "cityLabel": "",
+        "countryLabel": ""
 }
