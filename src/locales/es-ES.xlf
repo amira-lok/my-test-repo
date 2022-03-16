@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en-US" target-language="es-ES">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="first_key">
+				<source>My beautiful cat is white.</source>
+				<target>Mi hermoso gato es blanco.</target>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Name</source>
+				<target>Nombre</target>
+			</trans-unit>
+			<trans-unit id="descr">
+				<source>Enter your description here</source>
+				<target>Ingrese su descripción aquí</target>
+			</trans-unit>
+			<trans-unit id="fav-food::0">
+				<source>Beef</source>
+				<target>Carne de res</target>
+			</trans-unit>
+			<trans-unit id="fav-food::1">
+				<source>Carrots</source>
+				<target>Zanahorias</target>
+			</trans-unit>
+			<trans-unit id="fav-food::2">
+				<source>Peas</source>
+				<target>Guisantes</target>
+			</trans-unit>
+			<trans-unit id="cityLabel">
+				<source>City</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="countryLabel">
+				<source>Country</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
