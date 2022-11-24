@@ -1,0 +1,15 @@
+{
+	"login": {
+		"title": "Connect to SSH server",
+		"description": "Allows secured connections to SSH servers",
+		"connectButton": "Connect",
+		"input": {
+			"hostnameLabel": "Username@Host",
+			"hostnamePlaceholder": "e.g. Username@Host",
+			"portLabel": "Port",
+			"portPlaceholder": "e.g. 22",
+			"passwordLabel": "Password",
+			"passwordPlaceholder": "Enter password"
+		}
+	}
+}
