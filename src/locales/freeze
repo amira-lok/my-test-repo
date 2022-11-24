@@ -1,0 +1,19 @@
+{
+  "common": {
+    "changeProfileText": "Would you like to use Island with another profile?",
+    "changeProfileCta": "Change Profile",
+    "profileCardText": "You're logged in as <1>{{profileName}}</1> with: <3>{{profileEmail}}</3>"
+  },
+  "login": {
+    "title": "Connect to SSH server",
+    "description": "Allows secured connections to SSH servers",
+    "primaryCta": "Sign back in",
+    "secondaryCta": "Close Island Browser",
+    "errorMessage": "Something went wrong, please try again."
+  },
+  "blockedMachine": {
+    "title": "Access to Island from this \nhardware is blocked",
+    "description": "For security reasons, the administrator in your organization blocked access to Island from this hardware.",
+    "primaryCta": "Close Island Browser"
+  }
+}
