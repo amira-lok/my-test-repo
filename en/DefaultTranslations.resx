@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="CustomerPortalLink" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="DirectDebitMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="EmailCreditTransferMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="EmailDirectDebitMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="EmailRefundMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Address" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AdminCosts" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AdvanceAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AdvanceMoreInfoRef" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AdvancesDeductedFromInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AdvancesDeductedFromNextInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AmountExclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_AmountInclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Attention" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_BalanceOrigin" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_BankAccount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_BeginMeasurement" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedAdvanceApplyDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedAdvanceInfo" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedAdvanceTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedIbanInfo" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedIbanTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedPaymentInfo" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedPaymentTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ChangedibanCorrect" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ClosingGreeting" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Collection" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CollectionMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CollectionTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Consumption" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContactDetailSubtitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContactDetails" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContactIfIncorrect" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractTerminatedContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractTerminatedSubtitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractTerminatedTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeHalfYearlyInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeMonthlyInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeNextAdvance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeQuarterlyInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeSubtitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ContractWelcomeYearlyInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CreditTransferMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CreditnoteReference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CurrentInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CustomerAccountNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CustomerContractNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CustomerPortal" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_CustomerService" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Date" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailCreditTransfer" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailCreditTransferWhen" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailDirectDebit" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailPaymentCollectionDescription" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailRefund" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailRefundPartially" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailRefundWhen" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EmailTransferredTo" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EndDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EndMeasurement" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EvolutionOfAdvance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_EvolutionOfTaxes" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ExclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ExternalContractReference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Footer" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Formula" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_IgnoreIfAlreadyPaid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InfoNextAdvanceAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InterruptionsTelephone" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InvoiceAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InvoiceDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InvoiceDetail" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InvoiceDueDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_InvoiceNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_LabelToDetails" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Meter" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MeterReading" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MorePortal" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveInRejectedContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveInRequestReceivedContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveInRequestReceivedSubtitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveInRequestRejected" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveOutReceivedContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveOutReceivedSubtitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveOutRejectedContent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_MoveOutRequestRejected" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NameBeneficiary" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_New" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NewOpenBalance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NextAdvanceAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NextPaymentSct" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NextPaymentSdd" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NoFurtherActionRequired" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NoPaidAdvances" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NoticeOfDefaultIntro" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NoticeOfDefaultMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_NoticeOfDefaultTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Old" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_OpenAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_OpenInvoices" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_OriginalAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_OurReference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Overview" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_OverviewOfYourConsumption" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Paid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PaidAdvances" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PaidAdvancesNotTakenInAccount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PayAsFastAsPossible" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PayBeforeExtraCosts" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PayToAvoidAdditionalCosts" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PaymentInformation" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PaymentMethod" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PaymentReference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Period" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PersonalInformation" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Portal" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Portal_Registration_Link" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PreviouslyAdvanced" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PriceComponent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_PriceComponents" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Quantity" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_RefundAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_RemainingAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_RemainingInvoiceAmount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ReminderIntro" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ReminderPaymentMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ReminderTitle" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_RequestRecieved" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Salutation" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_ServicedLocation" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_SignDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_SignedDocuments" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_StartDate" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_TextForInvoicesWithoutSurprise" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Totaal" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_TotaalExclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_TotaalInclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Total" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_TotalExclVAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_TotalInvoiceAmountInclVAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_UnitPrice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_UnitPriceInclVat" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Unpaid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_VATNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_VATSpecs" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_WhatDidWeTakeIntoAccount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourBalance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourConsumptionIncludingSeasonality" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourCurrentContractNumber" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourInvoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourOpenAmountBenifit" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourOpenAmountDisadvantage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourOpenBalance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_YourTariff" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="LinkToDetails" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="NoIbanMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="PartiallyPaidMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="RefundMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="RefundUsedToSettleMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="SettledMessage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total_VAT_amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="VAT_Percentage" xml:space="preserve">
+		<value/>
+	</data>
+</root>

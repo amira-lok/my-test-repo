@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="CustomerPortalLink" xml:space="preserve">
+		<value>{{ Portal del Cliente }}</value>
+	</data>
+	<data name="DirectDebitMessage" xml:space="preserve">
+		<value>En los próximos días, su banco transferirá la cantidad de &lt;span style="font-weight:bold;color:black;"&gt;\n			€\n			 {{ factura.cantidad_restante | math.format "N2" }} &lt;/span &gt; de su cuenta al número de cuenta de &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.description }} &lt;/span &gt; .</value>
+	</data>
+	<data name="EmailCreditTransferMessage" xml:space="preserve">
+		<value>Por favor, pague el monto total mencionado anteriormente antes de &lt;span style="font-weight:bold;"&gt; {{ date.to_string facture.due_date ' %d /%m/%Y' }} &lt;/span&gt; a:</value>
+	</data>
+	<data name="EmailDirectDebitMessage" xml:space="preserve">
+		<value>En los próximos días, su banco transferirá la cantidad de &lt;span style="font-weight:bold;color:black;"&gt; \n			€\n			 {{ factura.cantidad_restante | math.format "N2" }} &lt;/span &gt; de su cuenta a:</value>
+	</data>
+	<data name="EmailRefundMessage" xml:space="preserve">
+		<value>En los próximos días, el importe de &lt;span style="font-weight:bold;color:black;"&gt; &amp;euro {{factura.importe_restante | matemáticas.abdominales | math.format "N2" }} &lt;/span&gt; se transferirá a:</value>
+	</data>
+	<data name="Label_Address" xml:space="preserve">
+		<value>Dirección</value>
+	</data>
+	<data name="Label_AdminCosts" xml:space="preserve">
+		<value>Costes administrativos</value>
+	</data>
+	<data name="Label_AdvanceAmount" xml:space="preserve">
+		<value>Cantidad de avance</value>
+	</data>
+	<data name="Label_AdvanceMoreInfoRef" xml:space="preserve">
+		<value>Más información sobre sus avances en la página siguiente.</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromInvoice" xml:space="preserve">
+		<value>Descripción general de los anticipos que hemos deducido de este acuerdo</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromNextInvoice" xml:space="preserve">
+		<value>Resumen de los anticipos que deduciremos de la próxima liquidación</value>
+	</data>
+	<data name="Label_Amount" xml:space="preserve">
+		<value>Monto</value>
+	</data>
+	<data name="Label_AmountExclVat" xml:space="preserve">
+		<value>Importe (excl. IVA)</value>
+	</data>
+	<data name="Label_AmountInclVat" xml:space="preserve">
+		<value>Importe (incl. IVA)</value>
+	</data>
+	<data name="Label_Attention" xml:space="preserve">
+		<value>atención</value>
+	</data>
+	<data name="Label_BalanceOrigin" xml:space="preserve">
+		<value>Aún tiene un saldo pendiente de &lt;span style="font-weight:bold;"&gt;\n			€\n			{{ cantidad_abierta_total | math.format "N2" }} &lt;/span&gt; con origen en:</value>
+	</data>
+	<data name="Label_BankAccount" xml:space="preserve">
+		<value>Número de cuenta:</value>
+	</data>
+	<data name="Label_BeginMeasurement" xml:space="preserve">
+		<value>Lectura inicial</value>
+	</data>
+	<data name="Label_ChangedAdvanceApplyDate" xml:space="preserve">
+		<value>Este monto de adelanto se aplicará a partir de su próximo adelanto el &lt;span style="font-weight:bold;"&gt; {{ next_advance_date }}. &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedAdvanceInfo" xml:space="preserve">
+		<value>Estimado {{ customer.short_display_name }}, el monto de su anticipo se cambió a &lt;span style="font-weight:bold;"&gt;\n			€\n			 {{ cantidad_avance }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_ChangedAdvanceTitle" xml:space="preserve">
+		<value>¡La cantidad de su anticipo ha cambiado!</value>
+	</data>
+	<data name="Label_ChangedIbanInfo" xml:space="preserve">
+		<value>Estimado, {{ customer.short_display_name }}, su IBAN se cambió a &lt;span style="font-weight:bold;"&gt; {{ customer.account_number }}. &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedIbanTitle" xml:space="preserve">
+		<value>¡Tu IBAN ha cambiado!</value>
+	</data>
+	<data name="Label_ChangedPaymentInfo" xml:space="preserve">
+		<value>Las facturas se pagarán mediante &lt;span style="font-weight:bold;"&gt; {{ customer.paymentMethod }}. &lt;/span&gt; de ahora en adelante.</value>
+	</data>
+	<data name="Label_ChangedPaymentTitle" xml:space="preserve">
+		<value>¡Tu método de pago ha cambiado!</value>
+	</data>
+	<data name="Label_ChangedibanCorrect" xml:space="preserve">
+		<value>Asegúrese de que este número sea correcto, los próximos pagos hacia y desde su cuenta se realizarán a través de este IBAN.</value>
+	</data>
+	<data name="Label_ClosingGreeting" xml:space="preserve">
+		<value>Atentamente</value>
+	</data>
+	<data name="Label_Collection" xml:space="preserve">
+		<value>mensaje de cobro de deudas</value>
+	</data>
+	<data name="Label_CollectionMessage" xml:space="preserve">
+		<value>A pesar de nuestras solicitudes de pago, las siguientes facturas aún no se han pagado. Al no pagar dentro de los plazos de pago acordados, está en mora. Le solicitamos y, en su caso, le emplazamos a abonarnos el importe total. &lt;/br&gt; Transfiera la cantidad total de &lt;span style="font-weight:bold;color:black;"&gt;\n			€\n			 {{ cantidad_total_incl_vat | matemáticas.abdominales | math.format "N2"}} &lt;/span&gt; a &lt;span style="font-weight:bold;color:black;"&gt; {{ organización.bank_account | ibanformatter }} &lt;/span&gt; a nombre de &lt;span style="font-weight:bold;color:black"&gt; {{ organization.description }} &lt;/span&gt; , indicando la siguiente referencia de pago: &lt;span style="font-weight:bold;color:black;"&gt; {{ pago_referencia }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_CollectionTitle" xml:space="preserve">
+		<value>mensaje de cobro de deudas</value>
+	</data>
+	<data name="Label_Consumption" xml:space="preserve">
+		<value>Consumo</value>
+	</data>
+	<data name="Label_ContactDetailSubtitle" xml:space="preserve">
+		<value>Para preguntas o información, por favor contáctenos en:</value>
+	</data>
+	<data name="Label_ContactDetails" xml:space="preserve">
+		<value>Detalles de contacto</value>
+	</data>
+	<data name="Label_ContactIfIncorrect" xml:space="preserve">
+		<value>Póngase en contacto con nosotros si estos datos son incorrectos.</value>
+	</data>
+	<data name="Label_ContractNumber" xml:space="preserve">
+		<value>Número de contrato</value>
+	</data>
+	<data name="Label_ContractTerminatedContent" xml:space="preserve">
+		<value>Su contrato ha terminado. En breve recibirá una nota final de nuestra parte.</value>
+	</data>
+	<data name="Label_ContractTerminatedSubtitle" xml:space="preserve">
+		<value>Gracias por haber sido nuestro cliente</value>
+	</data>
+	<data name="Label_ContractTerminatedTitle" xml:space="preserve">
+		<value>Tu contrato ha terminado</value>
+	</data>
+	<data name="Label_ContractWelcomeContent" xml:space="preserve">
+		<value>Tu contrato ha sido firmado y ya puedes disfrutar de nuestros servicios sin preocupaciones. A continuación se muestra una descripción general.</value>
+	</data>
+	<data name="Label_ContractWelcomeHalfYearlyInvoice" xml:space="preserve">
+		<value>Recibirá su próxima factura semestral el día {{ date.to_string next_invoice_date ` %d /%m/%Y` }}</value>
+	</data>
+	<data name="Label_ContractWelcomeMonthlyInvoice" xml:space="preserve">
+		<value>Recibirá una factura mensual el día {{ contract.billing_details.invoice_day }} de cada mes</value>
+	</data>
+	<data name="Label_ContractWelcomeNextAdvance" xml:space="preserve">
+		<value>Recibirás tu primer anticipo en unos días.</value>
+	</data>
+	<data name="Label_ContractWelcomeQuarterlyInvoice" xml:space="preserve">
+		<value>Recibirá su próxima factura trimestral el día {{ date.to_string next_invoice_date ` %d /%m/%Y` }}</value>
+	</data>
+	<data name="Label_ContractWelcomeSubtitle" xml:space="preserve">
+		<value>Ahora te has mudado oficialmente</value>
+	</data>
+	<data name="Label_ContractWelcomeTitle" xml:space="preserve">
+		<value>¡Bienvenidos!</value>
+	</data>
+	<data name="Label_ContractWelcomeYearlyInvoice" xml:space="preserve">
+		<value>Recibirá su próxima factura anual el {{ date.to_string next_invoice_date ` %d /%m/%Y` }}</value>
+	</data>
+	<data name="Label_CreditTransferMessage" xml:space="preserve">
+		<value>Por favor, pague el monto total mencionado anteriormente antes de &lt;span style="font-weight:bold;"&gt; {{ date.to_string facture.due_date ' %d /%m/%Y' }} &lt;/span&gt; a &lt;span style="font-weight:bold;color:black;"&gt; {{ organización.cuenta_bancaria | ibanformatter }} &lt;/span &gt; a nombre de &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.description }} &lt;/span &gt; , indicando la siguiente referencia de pago: &lt;span style="font-weight:bold;color:black;"&gt; {{ factura.pago_referencia }} &lt;/span &gt; .</value>
+	</data>
+	<data name="Label_CreditnoteReference" xml:space="preserve">
+		<value>Créditos</value>
+	</data>
+	<data name="Label_CurrentInvoice" xml:space="preserve">
+		<value>(factura actual)</value>
+	</data>
+	<data name="Label_CustomerAccountNumber" xml:space="preserve">
+		<value>Número de cliente:</value>
+	</data>
+	<data name="Label_CustomerContractNumber" xml:space="preserve">
+		<value>Número de contrato:</value>
+	</data>
+	<data name="Label_CustomerPortal" xml:space="preserve">
+		<value>También puede consultar sus facturas en</value>
+	</data>
+	<data name="Label_CustomerService" xml:space="preserve">
+		<value>Servicio al Cliente</value>
+	</data>
+	<data name="Label_Date" xml:space="preserve">
+		<value>Fecha</value>
+	</data>
+	<data name="Label_Description" xml:space="preserve">
+		<value>Descripción</value>
+	</data>
+	<data name="Label_Details" xml:space="preserve">
+		<value>Detalles</value>
+	</data>
+	<data name="Label_EmailCreditTransfer" xml:space="preserve">
+		<value>Tiene una factura pendiente de &lt;span style="font-weight: bold;"&gt; \n			€\n			 {{ factura.cantidad_restante | matemáticas.formato "N2"}} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_EmailCreditTransferWhen" xml:space="preserve">
+		<value>Por favor, pague esta cantidad antes de &lt;span style="font-weight: bold;"&gt; {{ date.to_string facture.due_date ' %d /%m/%Y' }} &lt;/span&gt; en</value>
+	</data>
+	<data name="Label_EmailDirectDebit" xml:space="preserve">
+		<value>En los próximos días, la cantidad de &lt;span style="font-weight:bold;"&gt; \n			€\n			 {{ factura.cantidad_restante | math.format "N2"}} &lt;/span&gt; se hará pagadero a nosotros.</value>
+	</data>
+	<data name="Label_EmailPaymentCollectionDescription" xml:space="preserve">
+		<value>A pesar de nuestras solicitudes de pago, las siguientes facturas aún no se han pagado. Al no pagar dentro de los plazos de pago acordados, está en mora. Le solicitamos y, en su caso, le emplazamos a abonarnos el importe total.</value>
+	</data>
+	<data name="Label_EmailRefund" xml:space="preserve">
+		<value>Tiene derecho a un reembolso de &lt;span style="font-weight:bold;"&gt; \n			€\n			 {{ factura.cantidad_restante | matemáticas.abdominales | matemáticas.formato "N2"}} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_EmailRefundPartially" xml:space="preserve">
+		<value>Utilizamos el reembolso de &lt;span style="font-weight:bold;"&gt; \n			€\n			{{ factura.total_amount_incl_vat | matemáticas.abdominales | math.format "N2"}} &lt;/span&gt; para deducir su saldo pendiente.</value>
+	</data>
+	<data name="Label_EmailRefundWhen" xml:space="preserve">
+		<value>En unos pocos días hábiles, recibirá la cantidad de &lt;span style="font-weight:bold;"&gt;\n			€\n			 {{ factura.cantidad_restante | matemáticas.formato "N2"}} &lt;/span&gt; en:</value>
+	</data>
+	<data name="Label_EmailTransferredTo" xml:space="preserve">
+		<value>Será transferido a:</value>
+	</data>
+	<data name="Label_EndDate" xml:space="preserve">
+		<value>Fecha final</value>
+	</data>
+	<data name="Label_EndMeasurement" xml:space="preserve">
+		<value>Fin de lectura</value>
+	</data>
+	<data name="Label_EvolutionOfAdvance" xml:space="preserve">
+		<value>Historial avanzado</value>
+	</data>
+	<data name="Label_EvolutionOfTaxes" xml:space="preserve">
+		<value>Historial de contribuciones e impuestos</value>
+	</data>
+	<data name="Label_ExclVat" xml:space="preserve">
+		<value>excluido IVA</value>
+	</data>
+	<data name="Label_ExternalContractReference" xml:space="preserve">
+		<value>Tu referencia</value>
+	</data>
+	<data name="Label_Footer" xml:space="preserve">
+		<value>{{ organización.descripción }} - {{ organización.dirección.nombre_calle}} {{ organización.dirección.número_calle}}{{ organización.dirección.calle_número_adición}}, {{ organización.dirección.código_postal}} {{ organización.dirección .ciudad}} - {{ organización.email_address }} &lt;/br&gt; {{ organización.company_account_number }} - {{ organización.vat_account_number }} - IBAN {{ organización.bank_account | formateador iban }}</value>
+	</data>
+	<data name="Label_Formula" xml:space="preserve">
+		<value>Fórmula</value>
+	</data>
+	<data name="Label_IgnoreIfAlreadyPaid" xml:space="preserve">
+		<value>Si ya ha pagado el importe, puede ignorar esta notificación</value>
+	</data>
+	<data name="Label_InclVat" xml:space="preserve">
+		<value>incluido IVA</value>
+	</data>
+	<data name="Label_InfoNextAdvanceAmount" xml:space="preserve">
+		<value>Tus anticipos serán recalculados en base a tu consumo anual.</value>
+	</data>
+	<data name="Label_InterruptionsTelephone" xml:space="preserve">
+		<value>Línea de eliminación de fallas</value>
+	</data>
+	<data name="Label_InvoiceAmount" xml:space="preserve">
+		<value>Monto de la factura:</value>
+	</data>
+	<data name="Label_InvoiceDate" xml:space="preserve">
+		<value>Fecha de la factura</value>
+	</data>
+	<data name="Label_InvoiceDetail" xml:space="preserve">
+		<value>Detalles de la factura</value>
+	</data>
+	<data name="Label_InvoiceDueDate" xml:space="preserve">
+		<value>Fecha de vencimiento</value>
+	</data>
+	<data name="Label_InvoiceNumber" xml:space="preserve">
+		<value>número de factura</value>
+	</data>
+	<data name="Label_LabelToDetails" xml:space="preserve">
+		<value>Puede encontrar una descripción más detallada con las especificaciones del IVA en una página posterior.</value>
+	</data>
+	<data name="Label_Meter" xml:space="preserve">
+		<value>Metro</value>
+	</data>
+	<data name="Label_MeterReading" xml:space="preserve">
+		<value>Lectura de contadores</value>
+	</data>
+	<data name="Label_MorePortal" xml:space="preserve">
+		<value>Puede encontrar más información en {{ customer_portal }}</value>
+	</data>
+	<data name="Label_MoveInRejectedContent" xml:space="preserve">
+		<value>Ponte en contacto con nosotros para que podamos hablar sobre tu mudanza.</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedContent" xml:space="preserve">
+		<value>Vamos a poner en orden tu contrato. En breve recibirá un correo electrónico de confirmación con información adicional. A continuación se muestra un resumen de sus datos. Si algo todavía no está bien o si tiene alguna pregunta, siempre puede comunicarse con nosotros a través de los detalles de contacto en la parte inferior del correo electrónico.</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedSubtitle" xml:space="preserve">
+		<value>¡Gracias por elegirnos!</value>
+	</data>
+	<data name="Label_MoveInRequestRejected" xml:space="preserve">
+		<value>Su mudanza no puede ser procesada</value>
+	</data>
+	<data name="Label_MoveOutReceivedContent" xml:space="preserve">
+		<value>Nuestros empleados atenderán su solicitud en breve.</value>
+	</data>
+	<data name="Label_MoveOutReceivedSubtitle" xml:space="preserve">
+		<value>Hemos recibido con éxito su solicitud.</value>
+	</data>
+	<data name="Label_MoveOutRejectedContent" xml:space="preserve">
+		<value>Póngase en contacto con nosotros para que podamos discutir su reubicación juntos.</value>
+	</data>
+	<data name="Label_MoveOutRequestRejected" xml:space="preserve">
+		<value>Su mudanza no puede ser procesada</value>
+	</data>
+	<data name="Label_NameBeneficiary" xml:space="preserve">
+		<value>Nombre del beneficiario:</value>
+	</data>
+	<data name="Label_New" xml:space="preserve">
+		<value>Nuevo:</value>
+	</data>
+	<data name="Label_NewOpenBalance" xml:space="preserve">
+		<value>Nuevo saldo abierto</value>
+	</data>
+	<data name="Label_NextAdvanceAmount" xml:space="preserve">
+		<value>Próximo monto del anticipo</value>
+	</data>
+	<data name="Label_NextPaymentSct" xml:space="preserve">
+		<value>Recibirá su próxima factura el &lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }}. &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NextPaymentSdd" xml:space="preserve">
+		<value>Su próximo pago se realizará el &lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }}. &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NoFurtherActionRequired" xml:space="preserve">
+		<value>No es necesario que realice ninguna otra acción.</value>
+	</data>
+	<data name="Label_NoPaidAdvances" xml:space="preserve">
+		<value>No hay anticipos pagados</value>
+	</data>
+	<data name="Label_NoticeOfDefaultIntro" xml:space="preserve">
+		<value>Nuestros registros muestran que las siguientes facturas aún no han sido pagadas a pesar del vencimiento del plazo de pago. Las facturas pueden haber escapado a su atención.\nLe rogamos amable pero urgentemente que transfiera el importe total de dichas facturas a nuestra cuenta lo antes posible.</value>
+	</data>
+	<data name="Label_NoticeOfDefaultMessage" xml:space="preserve">
+		<value>Por favor, pague el monto total de &lt;span style="font-weight:bold;color:black;"&gt;\n			€\n			 {{ cantidad_total_incl_vat | matemáticas.abdominales | math.format "N2"}} &lt;/span&gt; lo antes posible para &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | ibanformatter }} &lt;/span&gt; a nombre de &lt;span style="font-weight:bold; color:black; "&gt; {{ organization.description }} &lt;/span&gt; , indicando la siguiente referencia de pago: &lt;span style="font-weight:bold;color:black;"&gt; {{ pago_referencia }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_NoticeOfDefaultTitle" xml:space="preserve">
+		<value>Recordatorio de pago final</value>
+	</data>
+	<data name="Label_Number" xml:space="preserve">
+		<value>Número</value>
+	</data>
+	<data name="Label_Old" xml:space="preserve">
+		<value>Antiguo:</value>
+	</data>
+	<data name="Label_OpenAmount" xml:space="preserve">
+		<value>Monto abierto</value>
+	</data>
+	<data name="Label_OpenInvoices" xml:space="preserve">
+		<value>Tus facturas pendientes</value>
+	</data>
+	<data name="Label_OriginalAmount" xml:space="preserve">
+		<value>Cantidad original</value>
+	</data>
+	<data name="Label_OurReference" xml:space="preserve">
+		<value>Nuestra referencia</value>
+	</data>
+	<data name="Label_Overview" xml:space="preserve">
+		<value>Visión general</value>
+	</data>
+	<data name="Label_OverviewOfYourConsumption" xml:space="preserve">
+		<value>Resumen de su consumo</value>
+	</data>
+	<data name="Label_Paid" xml:space="preserve">
+		<value>Pagado</value>
+	</data>
+	<data name="Label_PaidAdvances" xml:space="preserve">
+		<value>Resumen de anticipos pagados</value>
+	</data>
+	<data name="Label_PaidAdvancesNotTakenInAccount" xml:space="preserve">
+		<value>Anticipos pagados aún no tomados en cuenta</value>
+	</data>
+	<data name="Label_PayAsFastAsPossible" xml:space="preserve">
+		<value>Por favor liquide la siguiente cantidad tan pronto como sea posible. Si no recibimos el importe total a tiempo, se pueden cobrar gastos de cobro extrajudicial.</value>
+	</data>
+	<data name="Label_PayBeforeExtraCosts" xml:space="preserve">
+		<value>El monto total indicado debe ser acreditado a nuestro número de cuenta antes de &lt;span style="font-weight:bold;"&gt; {{ date.to_string next_step.execute_at ` %d /%m/%Y` }} &lt;/span&gt; . Si no recibimos el importe total a tiempo, se le cobrarán los gastos de cobro extrajudicial. &lt;/br&gt;\nA menos que se acuerde lo contrario con usted, estos costos ascienden a \n			€\n			 {{ next_step.charges.charge_amount_incl_vat | matemáticas.abdominales | math.format "N2" }} (IVA incluido), que estás obligado a pagar por ley. &lt;/br&gt;\nAdemás, se reclaman intereses contractuales o legales desde el momento en que incurre en mora.</value>
+	</data>
+	<data name="Label_PayToAvoidAdditionalCosts" xml:space="preserve">
+		<value>Paga a tiempo para evitar costos extra</value>
+	</data>
+	<data name="Label_PaymentInformation" xml:space="preserve">
+		<value>Información del pago</value>
+	</data>
+	<data name="Label_PaymentMethod" xml:space="preserve">
+		<value>Método de pago</value>
+	</data>
+	<data name="Label_PaymentReference" xml:space="preserve">
+		<value>Referencia de pago:</value>
+	</data>
+	<data name="Label_Period" xml:space="preserve">
+		<value>Período</value>
+	</data>
+	<data name="Label_PersonalInformation" xml:space="preserve">
+		<value>Tu información personal</value>
+	</data>
+	<data name="Label_Portal" xml:space="preserve">
+		<value>Portal del Cliente</value>
+	</data>
+	<data name="Label_Portal_Registration_Link" xml:space="preserve">
+		<value>Su enlace de registro para el portal del cliente</value>
+	</data>
+	<data name="Label_PreviouslyAdvanced" xml:space="preserve">
+		<value>Avanzado previamente</value>
+	</data>
+	<data name="Label_PriceComponent" xml:space="preserve">
+		<value>Componente de precio</value>
+	</data>
+	<data name="Label_PriceComponents" xml:space="preserve">
+		<value>Componentes del precio</value>
+	</data>
+	<data name="Label_Quantity" xml:space="preserve">
+		<value>Cantidad</value>
+	</data>
+	<data name="Label_RefundAmount" xml:space="preserve">
+		<value>Cantidad devuelta</value>
+	</data>
+	<data name="Label_RemainingAmount" xml:space="preserve">
+		<value>Cantidad restante:</value>
+	</data>
+	<data name="Label_RemainingInvoiceAmount" xml:space="preserve">
+		<value>Importe restante de esta factura</value>
+	</data>
+	<data name="Label_ReminderIntro" xml:space="preserve">
+		<value>Nuestros registros muestran que las siguientes facturas aún no han sido pagadas a pesar del vencimiento del plazo de pago. Las facturas pueden haber escapado a su atención.\nLe rogamos amable pero urgentemente que transfiera el importe total de dichas facturas a nuestra cuenta lo antes posible.</value>
+	</data>
+	<data name="Label_ReminderPaymentMessage" xml:space="preserve">
+		<value>Por favor, pague el monto total de &lt;span style="font-weight:bold;color:black;"&gt;\n			€\n			 {{ cantidad_total_incl_vat | matemáticas.abdominales | math.format "N2"}} &lt;/span&gt; lo antes posible para &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | ibanformatter }} &lt;/span&gt; a nombre de &lt;span style="font-weight:bold; color:black; "&gt; {{ organization.description }} &lt;/span&gt; , indicando la siguiente referencia de pago: &lt;span style="font-weight:bold;color:black;"&gt; {{ pago_referencia }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_ReminderTitle" xml:space="preserve">
+		<value>Recordatorio</value>
+	</data>
+	<data name="Label_RequestRecieved" xml:space="preserve">
+		<value>su petición ha sido recibida</value>
+	</data>
+	<data name="Label_Salutation" xml:space="preserve">
+		<value>Estimado {{ cliente.short_display_name }}</value>
+	</data>
+	<data name="Label_ServicedLocation" xml:space="preserve">
+		<value>Ubicación</value>
+	</data>
+	<data name="Label_SignDate" xml:space="preserve">
+		<value>Fecha de firma:</value>
+	</data>
+	<data name="Label_SignedDocuments" xml:space="preserve">
+		<value>Documentos firmados</value>
+	</data>
+	<data name="Label_StartDate" xml:space="preserve">
+		<value>Fecha de inicio</value>
+	</data>
+	<data name="Label_Status" xml:space="preserve">
+		<value>Estado</value>
+	</data>
+	<data name="Label_TextForInvoicesWithoutSurprise" xml:space="preserve">
+		<value>Junto con usted, trabajamos en un acuerdo sin sorpresas desagradables. Por lo tanto, cobramos un nuevo anticipo en base a tantos elementos como sea posible.</value>
+	</data>
+	<data name="Label_Totaal" xml:space="preserve">
+		<value>Total</value>
+	</data>
+	<data name="Label_TotaalExclVat" xml:space="preserve">
+		<value>Total excl. IVA</value>
+	</data>
+	<data name="Label_TotaalInclVat" xml:space="preserve">
+		<value>total incl. IVA</value>
+	</data>
+	<data name="Label_Total" xml:space="preserve">
+		<value>Total</value>
+	</data>
+	<data name="Label_TotalExclVAT" xml:space="preserve">
+		<value>Total (sin IVA)</value>
+	</data>
+	<data name="Label_TotalInvoiceAmountInclVAT" xml:space="preserve">
+		<value>Importe total de la factura (IVA incluido)</value>
+	</data>
+	<data name="Label_UnitPrice" xml:space="preserve">
+		<value>Precio unitario</value>
+	</data>
+	<data name="Label_UnitPriceInclVat" xml:space="preserve">
+		<value>Precio unitario (incl. IVA)</value>
+	</data>
+	<data name="Label_Unpaid" xml:space="preserve">
+		<value>No pagado</value>
+	</data>
+	<data name="Label_VAT" xml:space="preserve">
+		<value>IVA</value>
+	</data>
+	<data name="Label_VATNumber" xml:space="preserve">
+		<value>Número de valor agregado</value>
+	</data>
+	<data name="Label_VATSpecs" xml:space="preserve">
+		<value>especificaciones del IVA</value>
+	</data>
+	<data name="Label_WhatDidWeTakeIntoAccount" xml:space="preserve">
+		<value>¿Qué hemos tenido en cuenta?</value>
+	</data>
+	<data name="Label_YourBalance" xml:space="preserve">
+		<value>Tu balance</value>
+	</data>
+	<data name="Label_YourConsumptionIncludingSeasonality" xml:space="preserve">
+		<value>Su consumo (teniendo en cuenta las influencias estacionales)</value>
+	</data>
+	<data name="Label_YourCurrentContractNumber" xml:space="preserve">
+		<value>Su contrato actual</value>
+	</data>
+	<data name="Label_YourInvoice" xml:space="preserve">
+		<value>Su {{ factura.tipo_de_factura.etiqueta }} para:</value>
+	</data>
+	<data name="Label_YourOpenAmountBenifit" xml:space="preserve">
+		<value>Saldo abierto a tu favor:</value>
+	</data>
+	<data name="Label_YourOpenAmountDisadvantage" xml:space="preserve">
+		<value>Todavía tenías un saldo de:</value>
+	</data>
+	<data name="Label_YourOpenBalance" xml:space="preserve">
+		<value>Su saldo abierto:</value>
+	</data>
+	<data name="Label_YourTariff" xml:space="preserve">
+		<value>tu tarifa</value>
+	</data>
+	<data name="LinkToDetails" xml:space="preserve">
+		<value>Página 2</value>
+	</data>
+	<data name="NoIbanMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt; No tenemos su número de cuenta bancaria. &lt;/span&gt; &lt;br&gt; Después de recibir su número de cuenta bancaria, podemos transferir la cantidad de &lt;span style="font-weight:bold;color:black;"&gt;\n			€\n			 {{ factura.cantidad_restante | matemáticas.abdominales | matemáticas.formato "N2" }} &lt;/span&gt; . Puede pasar su número de cuenta bancaria a través de la información de contacto a continuación.</value>
+	</data>
+	<data name="PartiallyPaidMessage" xml:space="preserve">
+		<value>Saldo abierto a su favor fue utilizado para pagar en parte esta factura.</value>
+	</data>
+	<data name="RefundMessage" xml:space="preserve">
+		<value>En los próximos días, la cantidad de &lt;span style="font-weight:bold;color:black;"&gt; \n			€\n			 {{ factura.cantidad_restante | matemáticas.abdominales | math.format "N2" }} &lt;/span&gt; se transferirá a &lt;span style="font-weight:bold;color:black;"&gt; {{ customer.bank_account }} &lt;/span&gt; .</value>
+	</data>
+	<data name="RefundUsedToSettleMessage" xml:space="preserve">
+		<value>El monto del reembolso en esta factura se utilizó para liquidar su saldo pendiente.</value>
+	</data>
+	<data name="SettledMessage" xml:space="preserve">
+		<value>Se utilizó saldo pendiente a su favor para liquidar esta factura. &lt;br&gt; &lt;span style="font-weight:bold;"&gt; No es necesario que realice más acciones. &lt;/span&gt;</value>
+	</data>
+	<data name="Total_VAT_amount" xml:space="preserve">
+		<value>IVA total</value>
+	</data>
+	<data name="VAT_Percentage" xml:space="preserve">
+		<value>porcentaje de IVA</value>
+	</data>
+</root>

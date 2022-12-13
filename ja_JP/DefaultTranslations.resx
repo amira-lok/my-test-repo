@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="CustomerPortalLink" xml:space="preserve">
+		<value>{{カスタマーポータル}}</value>
+	</data>
+	<data name="DirectDebitMessage" xml:space="preserve">
+		<value>数日以内に銀行&lt;span style="font-weight:bold;color:black;"&gt;の金額が送金されます\n			€\n			 {{ 請求書.remaining_mount | math.format "N2" }} &lt;/span &gt;をアカウントから&lt;span style="font-weight:bold;color:black;"&gt; {{ organization.description }} &lt;/span &gt;のアカウント番号に変更します。</value>
+	</data>
+	<data name="EmailCreditTransferMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までに、上記の合計金額を次の宛先までお支払いください:</value>
+	</data>
+	<data name="EmailDirectDebitMessage" xml:space="preserve">
+		<value>数日以内に銀行&lt;span style="font-weight:bold;color:black;"&gt;の金額が送金されます \n			€\n			 {{ 請求書.remaining_mount | math.format "N2" }} &lt;/span &gt;アカウントから:</value>
+	</data>
+	<data name="EmailRefundMessage" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;color:black;"&gt; &amp;euro {{invoice.remaining_amount | math.abs | math.format "N2" }} &lt;/span&gt;次の場所に転送されます:</value>
+	</data>
+	<data name="Label_Address" xml:space="preserve">
+		<value>住所</value>
+	</data>
+	<data name="Label_AdminCosts" xml:space="preserve">
+		<value>管理費</value>
+	</data>
+	<data name="Label_AdvanceAmount" xml:space="preserve">
+		<value>前払い金額</value>
+	</data>
+	<data name="Label_AdvanceMoreInfoRef" xml:space="preserve">
+		<value>次のページであなたの進歩についての詳細情報。</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromInvoice" xml:space="preserve">
+		<value>この和解から差し引いた前払い金の概要</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromNextInvoice" xml:space="preserve">
+		<value>次の決済から差し引かれる前払金の概要</value>
+	</data>
+	<data name="Label_Amount" xml:space="preserve">
+		<value>額</value>
+	</data>
+	<data name="Label_AmountExclVat" xml:space="preserve">
+		<value>金額（税抜き） バット）</value>
+	</data>
+	<data name="Label_AmountInclVat" xml:space="preserve">
+		<value>金額（税込） バット）</value>
+	</data>
+	<data name="Label_Attention" xml:space="preserve">
+		<value>注意</value>
+	</data>
+	<data name="Label_BalanceOrigin" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の残高がまだあります\n			€\n			{{ 合計オープン金額 | math.format "N2" }} &lt;/span&gt;由来:</value>
+	</data>
+	<data name="Label_BankAccount" xml:space="preserve">
+		<value>口座番号：</value>
+	</data>
+	<data name="Label_BeginMeasurement" xml:space="preserve">
+		<value>初読</value>
+	</data>
+	<data name="Label_ChangedAdvanceApplyDate" xml:space="preserve">
+		<value>この前払い額&lt;span style="font-weight:bold;"&gt; {{ next_advance_date }} の次の前払いから適用されます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedAdvanceInfo" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様、前払い額が&lt;span style="font-weight:bold;"&gt;に変更されました\n			€\n			 {{ 前払い金額 }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_ChangedAdvanceTitle" xml:space="preserve">
+		<value>前払い金額が変更されました！</value>
+	</data>
+	<data name="Label_ChangedIbanInfo" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様、IBAN が&lt;span style="font-weight:bold;"&gt; {{ customer.account_number }} に変更されました。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedIbanTitle" xml:space="preserve">
+		<value>IBAN が変更されました。</value>
+	</data>
+	<data name="Label_ChangedPaymentInfo" xml:space="preserve">
+		<value>請求書は&lt;span style="font-weight:bold;"&gt; {{ customer.paymentMethod }} によって支払われます。 &lt;/span&gt;これから。</value>
+	</data>
+	<data name="Label_ChangedPaymentTitle" xml:space="preserve">
+		<value>お支払い方法が変わりました！</value>
+	</data>
+	<data name="Label_ChangedibanCorrect" xml:space="preserve">
+		<value>この番号が正しいことを確認してください。アカウントへの、またはアカウントからの今後の支払いは、この IBAN を通じて行われます。</value>
+	</data>
+	<data name="Label_ClosingGreeting" xml:space="preserve">
+		<value>敬具</value>
+	</data>
+	<data name="Label_Collection" xml:space="preserve">
+		<value>債権回収メッセージ</value>
+	</data>
+	<data name="Label_CollectionMessage" xml:space="preserve">
+		<value>支払いリクエストにもかかわらず、以下の請求書はまだ支払われていません。 合意された支払い期間内に支払わないことにより、あなたは債務不履行になります。 必要に応じて、合計金額の支払いを要求します。 &lt;/br&gt; &lt;span style="font-weight:bold;color:black;"&gt;の合計金額を送金してください\n			€\n			 {{ total_amount_incl_vat | math.abs | math.format "N2"}} &lt;/span&gt;から&lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | &lt;span style="font-weight:bold;color:black"&gt; {{ organization.description }} &lt;/span&gt;の名前で ibanformatter }} &lt;/span&gt;を使用し、次の支払い参照を記述します: &lt;span style="font-weight:bold;color:black;"&gt; {{ payment_reference }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_CollectionTitle" xml:space="preserve">
+		<value>債権回収メッセージ</value>
+	</data>
+	<data name="Label_Consumption" xml:space="preserve">
+		<value>消費</value>
+	</data>
+	<data name="Label_ContactDetailSubtitle" xml:space="preserve">
+		<value>ご質問や情報については、以下までお問い合わせください。</value>
+	</data>
+	<data name="Label_ContactDetails" xml:space="preserve">
+		<value>連絡先の詳細</value>
+	</data>
+	<data name="Label_ContactIfIncorrect" xml:space="preserve">
+		<value>これらのデータが正しくない場合は、お問い合わせください。</value>
+	</data>
+	<data name="Label_ContractNumber" xml:space="preserve">
+		<value>契約番号</value>
+	</data>
+	<data name="Label_ContractTerminatedContent" xml:space="preserve">
+		<value>あなたの契約は終了しました。 まもなくエンドノートが届きます。</value>
+	</data>
+	<data name="Label_ContractTerminatedSubtitle" xml:space="preserve">
+		<value>いつもご愛顧いただきありがとうございます</value>
+	</data>
+	<data name="Label_ContractTerminatedTitle" xml:space="preserve">
+		<value>あなたの契約は終了しました</value>
+	</data>
+	<data name="Label_ContractWelcomeContent" xml:space="preserve">
+		<value>契約が締結されましたので、安心してサービスをご利用いただけます。 以下は概要です。</value>
+	</data>
+	<data name="Label_ContractWelcomeHalfYearlyInvoice" xml:space="preserve">
+		<value>次の半年ごとの請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_ContractWelcomeMonthlyInvoice" xml:space="preserve">
+		<value>毎月 {{ contract.billing_details.invoice_day }} に毎月の請求書を受け取ります</value>
+	</data>
+	<data name="Label_ContractWelcomeNextAdvance" xml:space="preserve">
+		<value>数日後に最初の前払い金を受け取ります。</value>
+	</data>
+	<data name="Label_ContractWelcomeQuarterlyInvoice" xml:space="preserve">
+		<value>次の四半期ごとの請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_ContractWelcomeSubtitle" xml:space="preserve">
+		<value>これで正式に引っ越しました</value>
+	</data>
+	<data name="Label_ContractWelcomeTitle" xml:space="preserve">
+		<value>いらっしゃいませ！</value>
+	</data>
+	<data name="Label_ContractWelcomeYearlyInvoice" xml:space="preserve">
+		<value>次の年次請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_CreditTransferMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までに上記の合計金額を&lt;span style="font-weight:bold;color:black;"&gt; ="font-weight:bold;" に支払ってください。 &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | ibanformatter }} &lt;/span &gt; &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.description }} &lt;/span &gt;の名前で、次の支払い参照を記載: &lt;span style="font-weight:bold;color:black;"&gt; {{invoice.payment_reference}} &lt;/span &gt; .</value>
+	</data>
+	<data name="Label_CreditnoteReference" xml:space="preserve">
+		<value>クレジット</value>
+	</data>
+	<data name="Label_CurrentInvoice" xml:space="preserve">
+		<value>(現在の請求書)</value>
+	</data>
+	<data name="Label_CustomerAccountNumber" xml:space="preserve">
+		<value>顧客番号：</value>
+	</data>
+	<data name="Label_CustomerContractNumber" xml:space="preserve">
+		<value>契約番号:</value>
+	</data>
+	<data name="Label_CustomerPortal" xml:space="preserve">
+		<value>請求書は、</value>
+	</data>
+	<data name="Label_CustomerService" xml:space="preserve">
+		<value>顧客サービス</value>
+	</data>
+	<data name="Label_Date" xml:space="preserve">
+		<value>日にち</value>
+	</data>
+	<data name="Label_Description" xml:space="preserve">
+		<value>説明</value>
+	</data>
+	<data name="Label_Details" xml:space="preserve">
+		<value>詳細</value>
+	</data>
+	<data name="Label_EmailCreditTransfer" xml:space="preserve">
+		<value>&lt;span style="font-weight: bold;"&gt;の未払いの請求書があります \n			€\n			 {{invoice.remaining_mount | math.format "N2"}} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_EmailCreditTransferWhen" xml:space="preserve">
+		<value>&lt;span style="font-weight: bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までにこの金額をお支払いください</value>
+	</data>
+	<data name="Label_EmailDirectDebit" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;"&gt;の量が \n			€\n			 {{invoice.remaining_mount | math.format "N2"}} &lt;/span&gt;当社に支払われます。</value>
+	</data>
+	<data name="Label_EmailPaymentCollectionDescription" xml:space="preserve">
+		<value>支払いリクエストにもかかわらず、以下の請求書はまだ支払われていません。 合意された支払い期間内に支払わないことにより、あなたは債務不履行になります。 必要に応じて、合計金額の支払いを要求します。</value>
+	</data>
+	<data name="Label_EmailRefund" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の払い戻しを受ける権利があります \n			€\n			 {{ 請求書.remaining_mount | math.abs | math.format "N2"}} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_EmailRefundPartially" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の払い戻しを利用しました \n			€\n			{{invoice.total_amount_incl_vat | math.abs | math.format "N2"}} &lt;/span&gt;使用して未払い残高を差し引きます。</value>
+	</data>
+	<data name="Label_EmailRefundWhen" xml:space="preserve">
+		<value>数営業日以内に、 &lt;span style="font-weight:bold;"&gt;の金額を受け取ります。\n			€\n			 {{invoice.remaining_mount | math.format "N2"}} &lt;/span&gt; on:</value>
+	</data>
+	<data name="Label_EmailTransferredTo" xml:space="preserve">
+		<value>転送先:</value>
+	</data>
+	<data name="Label_EndDate" xml:space="preserve">
+		<value>終了日</value>
+	</data>
+	<data name="Label_EndMeasurement" xml:space="preserve">
+		<value>読み終わり</value>
+	</data>
+	<data name="Label_EvolutionOfAdvance" xml:space="preserve">
+		<value>進撃の歴史</value>
+	</data>
+	<data name="Label_EvolutionOfTaxes" xml:space="preserve">
+		<value>拠出金と納税履歴</value>
+	</data>
+	<data name="Label_ExclVat" xml:space="preserve">
+		<value>除外 バット</value>
+	</data>
+	<data name="Label_ExternalContractReference" xml:space="preserve">
+		<value>あなたの参照</value>
+	</data>
+	<data name="Label_Footer" xml:space="preserve">
+		<value>{{ organization.description }} - {{ organization.address.street_name}} {{ organization.address.street_number}}{{ organization.address.street_number_addition}}, {{ organization.address.postal_code}} {{ organization.address .city}} - {{ organization.email_address }} &lt;/br&gt; {{ organization.company_account_number }} - {{ organization.vat_account_number }} - IBAN {{ organization.bank_account | ibanformatter }}</value>
+	</data>
+	<data name="Label_Formula" xml:space="preserve">
+		<value>方式</value>
+	</data>
+	<data name="Label_IgnoreIfAlreadyPaid" xml:space="preserve">
+		<value>すでに金額を支払っている場合は、この通知を無視できます</value>
+	</data>
+	<data name="Label_InclVat" xml:space="preserve">
+		<value>税込 バット</value>
+	</data>
+	<data name="Label_InfoNextAdvanceAmount" xml:space="preserve">
+		<value>前払いは、年間の消費量に基づいて再計算されます。</value>
+	</data>
+	<data name="Label_InterruptionsTelephone" xml:space="preserve">
+		<value>断線ライン</value>
+	</data>
+	<data name="Label_InvoiceAmount" xml:space="preserve">
+		<value>請求金額:</value>
+	</data>
+	<data name="Label_InvoiceDate" xml:space="preserve">
+		<value>請求書の日付</value>
+	</data>
+	<data name="Label_InvoiceDetail" xml:space="preserve">
+		<value>請求の詳細</value>
+	</data>
+	<data name="Label_InvoiceDueDate" xml:space="preserve">
+		<value>期日</value>
+	</data>
+	<data name="Label_InvoiceNumber" xml:space="preserve">
+		<value>請求書番号</value>
+	</data>
+	<data name="Label_LabelToDetails" xml:space="preserve">
+		<value>後のページで、VAT 仕様の詳細な概要を確認できます。</value>
+	</data>
+	<data name="Label_Meter" xml:space="preserve">
+		<value>メートル</value>
+	</data>
+	<data name="Label_MeterReading" xml:space="preserve">
+		<value>検針</value>
+	</data>
+	<data name="Label_MorePortal" xml:space="preserve">
+		<value>詳細については、{{ customer_portal }} をご覧ください。</value>
+	</data>
+	<data name="Label_MoveInRejectedContent" xml:space="preserve">
+		<value>入居のご相談も承りますので、お気軽にご相談ください。</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedContent" xml:space="preserve">
+		<value>順調に契約を進めていきます。 追加情報が記載された確認メールがまもなく届きます。 以下は、あなたの詳細の要約です。 それでも問題が解決しない場合やご質問がある場合は、メールの下部にある連絡先の詳細からいつでもご連絡ください。</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedSubtitle" xml:space="preserve">
+		<value>私達を選んで頂き有難うございます！</value>
+	</data>
+	<data name="Label_MoveInRequestRejected" xml:space="preserve">
+		<value>入居を処理できません</value>
+	</data>
+	<data name="Label_MoveOutReceivedContent" xml:space="preserve">
+		<value>当社の従業員がお客様のご要望に迅速に対応いたします。</value>
+	</data>
+	<data name="Label_MoveOutReceivedSubtitle" xml:space="preserve">
+		<value>お申し込みを受け付けました。</value>
+	</data>
+	<data name="Label_MoveOutRejectedContent" xml:space="preserve">
+		<value>お引越しのご相談も承りますので、お気軽にご相談ください。</value>
+	</data>
+	<data name="Label_MoveOutRequestRejected" xml:space="preserve">
+		<value>退去を処理できません</value>
+	</data>
+	<data name="Label_NameBeneficiary" xml:space="preserve">
+		<value>受取人の名前:</value>
+	</data>
+	<data name="Label_New" xml:space="preserve">
+		<value>新しい：</value>
+	</data>
+	<data name="Label_NewOpenBalance" xml:space="preserve">
+		<value>新しい未決済残高</value>
+	</data>
+	<data name="Label_NextAdvanceAmount" xml:space="preserve">
+		<value>次回繰上金額</value>
+	</data>
+	<data name="Label_NextPaymentSct" xml:space="preserve">
+		<value>次の請求書は&lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }} に届きます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NextPaymentSdd" xml:space="preserve">
+		<value>次回のお支払いは&lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }} に行われます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NoFurtherActionRequired" xml:space="preserve">
+		<value>これ以上の操作を行う必要はありません。</value>
+	</data>
+	<data name="Label_NoPaidAdvances" xml:space="preserve">
+		<value>前払い金はありません</value>
+	</data>
+	<data name="Label_NoticeOfDefaultIntro" xml:space="preserve">
+		<value>弊社の記録によると、以下の請求書は支払い期限が切れているにもかかわらず、まだ支払われていません。 請求書はあなたの注意を逃した可能性があります。\nお手数をおかけいたしますが、上記の請求書の合計金額をできるだけ早く当社の口座にお振込みくださいますようお願いいたします。</value>
+	</data>
+	<data name="Label_NoticeOfDefaultMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;の合計金額をお支払いください。\n			€\n			 {{ total_amount_incl_vat | math.abs | math.format "N2"}} &lt;/span&gt;できるだけ早く&lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | &lt;span style="font-weight:bold; color:black; "&gt; {{ organization.description }} &lt;/span&gt;の名前に ibanformatter }} &lt;/span&gt;を追加し、次の支払い参照を記載します: &lt;span style="font-weight:bold;color:black;"&gt; {{ payment_reference }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_NoticeOfDefaultTitle" xml:space="preserve">
+		<value>支払いの最終リマインダー</value>
+	</data>
+	<data name="Label_Number" xml:space="preserve">
+		<value>番号</value>
+	</data>
+	<data name="Label_Old" xml:space="preserve">
+		<value>年：</value>
+	</data>
+	<data name="Label_OpenAmount" xml:space="preserve">
+		<value>未決済額</value>
+	</data>
+	<data name="Label_OpenInvoices" xml:space="preserve">
+		<value>未払いの請求書</value>
+	</data>
+	<data name="Label_OriginalAmount" xml:space="preserve">
+		<value>元の金額</value>
+	</data>
+	<data name="Label_OurReference" xml:space="preserve">
+		<value>私たちの参照</value>
+	</data>
+	<data name="Label_Overview" xml:space="preserve">
+		<value>概要</value>
+	</data>
+	<data name="Label_OverviewOfYourConsumption" xml:space="preserve">
+		<value>消費の概要</value>
+	</data>
+	<data name="Label_Paid" xml:space="preserve">
+		<value>有料</value>
+	</data>
+	<data name="Label_PaidAdvances" xml:space="preserve">
+		<value>概要前払い</value>
+	</data>
+	<data name="Label_PaidAdvancesNotTakenInAccount" xml:space="preserve">
+		<value>支払われた前払いはまだ考慮されていません</value>
+	</data>
+	<data name="Label_PayAsFastAsPossible" xml:space="preserve">
+		<value>お早めに下記金額をご決済ください。 全額が期日までに受領されない場合、超法規的回収費用が請求される場合があります。</value>
+	</data>
+	<data name="Label_PayBeforeExtraCosts" xml:space="preserve">
+		<value>記載された合計金額は、遅くとも&lt;span style="font-weight:bold;"&gt; {{ date.to_string next_step.execute_at ` %d /%m/%Y` }} &lt;/span&gt;までにアカウント番号に入金する必要があります。 &lt;/span&gt; . 合計金額が期日までに受領されない場合、超法規的回収費用がお客様に請求されます。 &lt;/br&gt;\n別段の合意がない限り、これらの費用は \n			€\n			 {{ next_step.charges.charge_amount_incl_vat | math.abs | math.format "N2" }} (VAT を含む)、法律で支払う義務があること。 &lt;/br&gt;\nさらに、債務不履行になった瞬間から、契約上または法定の利益に対して請求が行われます。</value>
+	</data>
+	<data name="Label_PayToAvoidAdditionalCosts" xml:space="preserve">
+		<value>余分な費用を避けるために時間通りに支払う</value>
+	</data>
+	<data name="Label_PaymentInformation" xml:space="preserve">
+		<value>支払情報</value>
+	</data>
+	<data name="Label_PaymentMethod" xml:space="preserve">
+		<value>支払方法</value>
+	</data>
+	<data name="Label_PaymentReference" xml:space="preserve">
+		<value>支払参照:</value>
+	</data>
+	<data name="Label_Period" xml:space="preserve">
+		<value>限目</value>
+	</data>
+	<data name="Label_PersonalInformation" xml:space="preserve">
+		<value>あなたの個人情報</value>
+	</data>
+	<data name="Label_Portal" xml:space="preserve">
+		<value>カスタマーポータル</value>
+	</data>
+	<data name="Label_Portal_Registration_Link" xml:space="preserve">
+		<value>カスタマー ポータルの登録リンク</value>
+	</data>
+	<data name="Label_PreviouslyAdvanced" xml:space="preserve">
+		<value>前に進んだ</value>
+	</data>
+	<data name="Label_PriceComponent" xml:space="preserve">
+		<value>価格要素</value>
+	</data>
+	<data name="Label_PriceComponents" xml:space="preserve">
+		<value>価格構成要素</value>
+	</data>
+	<data name="Label_Quantity" xml:space="preserve">
+		<value>量</value>
+	</data>
+	<data name="Label_RefundAmount" xml:space="preserve">
+		<value>返金額</value>
+	</data>
+	<data name="Label_RemainingAmount" xml:space="preserve">
+		<value>残量:</value>
+	</data>
+	<data name="Label_RemainingInvoiceAmount" xml:space="preserve">
+		<value>この請求書の残高</value>
+	</data>
+	<data name="Label_ReminderIntro" xml:space="preserve">
+		<value>弊社の記録によると、以下の請求書は支払い期限が切れているにもかかわらず、まだ支払われていません。 請求書はあなたの注意を逃した可能性があります。\nお手数をおかけいたしますが、上記の請求書の合計金額をできるだけ早く当社の口座にお振込みくださいますようお願いいたします。</value>
+	</data>
+	<data name="Label_ReminderPaymentMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;の合計金額をお支払いください。\n			€\n			 {{ total_amount_incl_vat | math.abs | math.format "N2"}} &lt;/span&gt;できるだけ早く&lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | &lt;span style="font-weight:bold; color:black; "&gt; {{ organization.description }} &lt;/span&gt;の名前に ibanformatter }} &lt;/span&gt;を追加し、次の支払い参照を記載します: &lt;span style="font-weight:bold;color:black;"&gt; {{ payment_reference }} &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_ReminderTitle" xml:space="preserve">
+		<value>リマインダー</value>
+	</data>
+	<data name="Label_RequestRecieved" xml:space="preserve">
+		<value>リクエストを受け取りました</value>
+	</data>
+	<data name="Label_Salutation" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様</value>
+	</data>
+	<data name="Label_ServicedLocation" xml:space="preserve">
+		<value>位置</value>
+	</data>
+	<data name="Label_SignDate" xml:space="preserve">
+		<value>署名日:</value>
+	</data>
+	<data name="Label_SignedDocuments" xml:space="preserve">
+		<value>署名済み文書</value>
+	</data>
+	<data name="Label_StartDate" xml:space="preserve">
+		<value>開始日</value>
+	</data>
+	<data name="Label_Status" xml:space="preserve">
+		<value>状態</value>
+	</data>
+	<data name="Label_TextForInvoicesWithoutSurprise" xml:space="preserve">
+		<value>あなたと一緒に、不愉快な驚きのない和解に取り組みます。 したがって、可能な限り多くの要素に基づいて新しい進歩を請求します</value>
+	</data>
+	<data name="Label_Totaal" xml:space="preserve">
+		<value>合計</value>
+	</data>
+	<data name="Label_TotaalExclVat" xml:space="preserve">
+		<value>合計を除く バット</value>
+	</data>
+	<data name="Label_TotaalInclVat" xml:space="preserve">
+		<value>合計 バット</value>
+	</data>
+	<data name="Label_Total" xml:space="preserve">
+		<value>合計</value>
+	</data>
+	<data name="Label_TotalExclVAT" xml:space="preserve">
+		<value>合計（VATを除く）</value>
+	</data>
+	<data name="Label_TotalInvoiceAmountInclVAT" xml:space="preserve">
+		<value>請求書の合計金額 (VAT を含む)</value>
+	</data>
+	<data name="Label_UnitPrice" xml:space="preserve">
+		<value>単価</value>
+	</data>
+	<data name="Label_UnitPriceInclVat" xml:space="preserve">
+		<value>単価（税込） バット）</value>
+	</data>
+	<data name="Label_Unpaid" xml:space="preserve">
+		<value>未払い</value>
+	</data>
+	<data name="Label_VAT" xml:space="preserve">
+		<value>バット</value>
+	</data>
+	<data name="Label_VATNumber" xml:space="preserve">
+		<value>VAT番号</value>
+	</data>
+	<data name="Label_VATSpecs" xml:space="preserve">
+		<value>VAT仕様</value>
+	</data>
+	<data name="Label_WhatDidWeTakeIntoAccount" xml:space="preserve">
+		<value>何を考慮しましたか？</value>
+	</data>
+	<data name="Label_YourBalance" xml:space="preserve">
+		<value>あなたのバランス</value>
+	</data>
+	<data name="Label_YourConsumptionIncludingSeasonality" xml:space="preserve">
+		<value>あなたの消費量（季節の影響を考慮して）</value>
+	</data>
+	<data name="Label_YourCurrentContractNumber" xml:space="preserve">
+		<value>現在の契約</value>
+	</data>
+	<data name="Label_YourInvoice" xml:space="preserve">
+		<value>あなたの {{invoice.invoice_type.label}}:</value>
+	</data>
+	<data name="Label_YourOpenAmountBenifit" xml:space="preserve">
+		<value>あなたに有利なオープンバランス:</value>
+	</data>
+	<data name="Label_YourOpenAmountDisadvantage" xml:space="preserve">
+		<value>あなたはまだ次の残高を持っていました:</value>
+	</data>
+	<data name="Label_YourOpenBalance" xml:space="preserve">
+		<value>あなたの残高:</value>
+	</data>
+	<data name="Label_YourTariff" xml:space="preserve">
+		<value>あなたのレート</value>
+	</data>
+	<data name="LinkToDetails" xml:space="preserve">
+		<value>ページ2</value>
+	</data>
+	<data name="NoIbanMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;お客様の銀行口座番号がわかりません。 &lt;/span&gt; &lt;br&gt;銀行口座番号を受け取り次第&lt;span style="font-weight:bold;color:black;"&gt;の金額を送金できます。\n			€\n			 {{ 請求書.remaining_mount | math.abs | math.format "N2" }} &lt;/span&gt; . 銀行口座番号は、以下の連絡先情報から伝えることができます。</value>
+	</data>
+	<data name="PartiallyPaidMessage" xml:space="preserve">
+		<value>この請求書の一部を支払うために、有利な未払い残高が使用されました。</value>
+	</data>
+	<data name="RefundMessage" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;color:black;"&gt;の量 \n			€\n			 {{invoice.remaining_mount | math.abs | math.format "N2" }} &lt;/span&gt; &lt;span style="font-weight:bold;color:black;"&gt; {{ customer.bank_account }} &lt;/span&gt;に転送されます。</value>
+	</data>
+	<data name="RefundUsedToSettleMessage" xml:space="preserve">
+		<value>この請求書の返金額は、未決済残高の決済に使用されました。</value>
+	</data>
+	<data name="SettledMessage" xml:space="preserve">
+		<value>この請求書の決済には、有利な未決済残高が使用されました。 &lt;br&gt; &lt;span style="font-weight:bold;"&gt;これ以上の操作は必要ありません。 &lt;/span&gt;</value>
+	</data>
+	<data name="Total_VAT_amount" xml:space="preserve">
+		<value>付加価値税合計</value>
+	</data>
+	<data name="VAT_Percentage" xml:space="preserve">
+		<value>VAT パーセンテージ</value>
+	</data>
+</root>
