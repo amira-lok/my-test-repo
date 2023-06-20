@@ -3,8 +3,9 @@
 "two": "Call Me",
 "three": "Email Me",
 "four": "You will be notified by email",
-"five": "Send",
+"five": "Send five",
 "six": "The iteam is not empty and it does not meet the email validation rules",
 "id_string": "200",
-"id_number": 200
+"id_number": 200,
+"number_cars": "Number of cars"
 }
