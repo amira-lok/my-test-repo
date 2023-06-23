@@ -1,6 +1,7 @@
 {
 "one": "This car has been sold",
 "two": "Call Me",
-  "boo": "Updated in bra",
-  "new": "new in bra"
+  "boo": "Updated again in bra",
+  "new": "new in bra. Updated.",
+  "must": "This is just another test of a new string."
 }
