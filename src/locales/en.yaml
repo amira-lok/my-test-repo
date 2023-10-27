@@ -3675,10 +3675,9 @@ coachPanel:
       learning: "\"It was made available to me, so I thought I would check it out.\""
       reflecting: "\"I’m open to investing time in my development but have limited time to commit.\""
       doing: "\"I’m ready to dive in and dedicate several hours per week to my development.\""
-      key: "N/A"
+      null: "N/A"
     connectPlanItemType:
       Appointment: "1:1 Coach"
-      GroupCoachingSeries: "Connect Circle"
       CoachingReelAssignments: "Coach Reels"
       DebriefAppointment: "Plan Debrief 1:1"
       CallToActionVideo: "Call To Action Video"
