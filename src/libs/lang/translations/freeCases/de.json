@@ -1,0 +1,12 @@
+{
+  "logoAlt": "Black Friday Week",
+  "headline": "Open Free Cases",
+  "description": "Top up your account and get {{casesCount}} cases with awesome skins for free.",
+  "level": "Level",
+  "free": "free",
+  "openFreeCase": "Open free case",
+  "depositXToAccessThisLevel": "Top-up {{amount}} to unlock next level.",
+  "hint": "Each case can only be opened once.",
+  "deposit": "Deposit",
+  "opened": "Opened"
+}

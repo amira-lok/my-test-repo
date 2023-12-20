@@ -1,0 +1,15 @@
+{
+  "title": "Top withdrawals",
+  "description": "We understand how important it is to get your desired skin, and we do everything to make this process go as smoothly as possible.",
+  "lastStatistics": "Newest stats",
+  "biggestWithdrawDayTitle": "Biggest withdrawals of the day",
+  "biggestWithdrawWeekTitle": "Biggest withdrawals of the week",
+  "biggestWithdrawMonthTitle": "Biggest withdrawals of the month",
+  "withdrawsDay": "WITHDRAWALS TODAY",
+  "withdrawsWeek": "WITHDRAWALS THIS WEEK",
+  "withdrawsMonth": "WITHDRAWALS THIS MONTH",
+  "withdrawValue": "withdrawal value",
+  "paidToday": "Payouts in the last 24 hours",
+  "avaragePayoutTime": "Average payout time",
+  "lastPaycheck": "Last paycheck"
+}
