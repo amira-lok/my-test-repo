@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string"/>
+							<xsd:attribute name="name" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+							<xsd:attribute ref="xml:space"/>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name=" * item(s) were already settled before, processing refunds only" xml:space="preserve">
+		<value/>
+	</data>
+	<data name=" ** number of order's refunds" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="%% per transaction" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="%(counter)s Transaction" xml:space="preserve">
+		<value>{"one":"","other":""}</value>
+	</data>
+	<data name="%(seller_brand)s, registered as %(seller_company)s has given %(biller_company_name)s the right to collect the claim." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="%(seller_brand)s, registered as %(seller_company)s, has authorised %(biller_company_name)s to collect the claim." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="%(seller_company)s has given %(biller_company_name)s the right to collect the claim." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="- Done!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="API version" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Acceptance Variables" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Accepted currencies" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Account name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Account number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Action required: 2nd payment reminder for your order at %(seller_brand)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Action required: Last payment reminder for your order at %(seller_brand)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Action required: Pay now to avoid contact from a collection agency for your order at %(seller_brand)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Additional request data" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Addresses in %(country)s require a valid postal code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="After obtaining a token from the [Create token](#operation/v1_api_token_create) endpoint, the expire time of this token can be extended to 24 hours using the `Refresh token` endpoint." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Alert icon" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="All orders for this seller profile have been already settled" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Amount excl. tax (total for the quantity given)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Amount incl. tax (total for the quantity given)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Apartment, suite, unit or building." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Applied Decision Rules" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Applied decision rules" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Are you sure you want to cancel this order and return to the webshop?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="At least one address for company should be main" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Attn: %(buyer_first_name)s %(buyer_last_name)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Automatically matched?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Bank transfer details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Belgian French" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Beneficiary" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller - Payment page" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller - email verification" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller credit note" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller fees" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Biller payment request" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address city" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address country" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address house number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address house number suffix" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address postal code/Zip-code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address region" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address street" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address street address 1" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Billing address street address 2" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="British English" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Business invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Business invoice, net payment term of %(num)s days" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Buyer" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Buyer company name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Buyer's company name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Buyers" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="By continuing, I confirm that I have read and agreed to Biller's &lt;a href=&quot;https://biller.ai/wp-content/uploads/2022/01/Privacy-statement-Biller-version-301221.pdf&quot; target=&quot;_blank&quot;&gt;Privacy Notice&lt;/a&gt; and I agree to their &lt;a href=%(terms_and_conditions_link)s target=&quot;_blank&quot;&gt;Terms &amp; Conditions&lt;/a&gt;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Calculation time in ms" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Cancel order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Cancel order and return to webshop" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Cancel the Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Capture (part of) an accepted order to let Biller know that you have shipped the goods, and Biller will send a payment request to the Buyer. Only the captured parts of orders can be settled (paid out) and/or [refunded](#operation/v1_api_orders_refund_create)." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Capture the Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Check %(biller_customer_support_url)s for the most common questions or contact us via %(biller_customer_support_email)s or %(biller_phone_number)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Check &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;%(biller_customer_support_url)s&quot;&gt;Biller helpdesk&lt;/a&gt; for the most common questions or contact us via &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;mailto:%(biller_customer_support_email)s&quot;&gt;%(biller_customer_support_email)s&lt;/a&gt; or &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;tel:%(biller_phone_number)s&quot;&gt;%(biller_phone_number)s&lt;/a&gt;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="City" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Clear all filters" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Close" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Closed at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Code Version" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Comissions" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Commission Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Companies" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company CreditsafeUID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company VAT number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company account" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company accounts" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company address" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company addresses" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company brand name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company chamber of commerce code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company has no main addresses left" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company registration number (at chamber of commerce)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Company website" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Confirm" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Contact details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Contact email owner" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Correction Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Corrections (%(comment)s)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Create Settlement" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Create a new OrderRequest" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Create token" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Created At" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Created at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Created by sendgrid at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credit Decision" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credit Decisions" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credit Report" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credit Reports" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credit note for invoice with order number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Credited" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="CreditsafeUID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Currency" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Currency code." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Currency symbol." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Customer support" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Customer support email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Customer support phone number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="CustomerPortalLink" xml:space="preserve">
+		<value>{{カスタマーポータル}}</value>
+	</data>
+	<data name="Danish" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dear %(buyer_first_name)s," xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dear %(salutation_name)s," xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Debt collection handover sent at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Debt collection handover sent?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Delivery failure reason" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Deprecated! Please use the Update the Invoice endpoint." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Device Details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Device details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="DirectDebitMessage" xml:space="preserve">
+		<value>数日以内に銀行&lt;span style="font-weight:bold;color:black;"&gt;の金額が送金されます</value>
+	</data>
+	<data name="Discount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount (JSON)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount amount (cents) excluding tax." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount amount (cents) including tax." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount amount excl. tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount amount incl. tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount amount tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount description" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount description to be displayed, for example: &quot;10% discount&quot;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Discount total_tax cannot be greater than the summed tax of order_lines." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Due date" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dunning" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dunning flow" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dunning flow choices. Multiple values allowed (comma separated). First value is used as default. Valid choices are: %(choices)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Duplicated product_id" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Dutch" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Email details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Email verification failed" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="EmailCreditTransferMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までに、上記の合計金額を次の宛先までお支払いください:</value>
+	</data>
+	<data name="EmailDirectDebitMessage" xml:space="preserve">
+		<value>数日以内に銀行&lt;span style="font-weight:bold;color:black;"&gt;の金額が送金されます</value>
+	</data>
+	<data name="EmailRefundMessage" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;color:black;"&gt; &amp;euro {{invoice.remaining_amount | math.abs | math.format "N2" }} &lt;/span&gt;次の場所に転送されます:</value>
+	</data>
+	<data name="English" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="English (United Kingdom)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Error details." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="ErrorString_1" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Event" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="External (seller) credit note ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="External (seller) invoice ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="External order ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="External order UID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="External product UID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as dispute refund." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as dispute write-off." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as paid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as settled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as unpaid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as unsettled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark invoice as write-off." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark settlement as paid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to mark settlement as sent." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to set invoice on-hold." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Failed to unset invoice on-hold." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Feedback label" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fees" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="File CSV" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="File PDF" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Files" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Filter" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Final verdict" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fingerprint" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="First name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="First reminder sent at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="First reminder sent?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fixed Fee" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fixed fee" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fixed fee (%(fixed_fee_rate)s per transaction)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Flemish" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="For all payments the general payment conditions apply of %(biller_company_name)s, trading under the name Biller, located at %(biller_postal_address_street_name)s %(biller_postal_address_house_number)s, %(biller_postal_address_postal_code)s %(biller_postal_address_city)s, registered with Chamber of Commerce no. %(biller_chamber_of_commerce_no)s and VAT-id: %(biller_vat_id)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="For full refunds, simply supply the order amount and the refund description. For partial refunds, the payload must also contain a list of `invoices` to be refunded. Regardless of refund method used, upon a successful refund, one credit note will be created per affected invoice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="For more information, please refer to the invoice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fraud Decision" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fraud Decisions" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fraud Report" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fraud Reports" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Fraud Score" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Free reminder sent at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Free reminder sent?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="French" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="French (Belgium)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Generate Settlement Report" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Generated {settlement_count} settlement reports for {invoice_count} sellers." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="German" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get details of what has been captured and what remains to be captured in an order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get order status example `Order does not exist`" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get order status example `rejected`" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Invoice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Order status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Seller User" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the Seller User." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the full details of an order." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Get the refundable Invoices of the Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Go back" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Go back to webshop" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="HTML credit note" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="HTML invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Hash is verified" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Here is the credit note for your purchase at %(seller_brand)s which you have placed on behalf of %(buyer_company)s on %(order_date)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Home" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="House number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="House number suffix" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="IP Details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="IP details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="If payment is not received within %(ultimatum_window)s days of this notification, the debt will be handed over to %(agency)s debt collection agency. An additional debt collection fee of %(fee_percentage)s of the total amount will apply, with a minimum of %(minimum_fee)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="If you have questions about this payement request, the delivery or the order, please contact %(seller_brand)s on %(seller_phone)s or email %(seller_email)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="If you have received this email even though you have already made the payment, please contact us immediately on &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;mailto:%(biller_customer_support_email)s&quot;&gt; %(biller_customer_support_email)s &lt;/a&gt; or call &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;tel:%(biller_phone_number)s&quot;&gt;%(biller_phone_number)s&lt;/a&gt;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Import CSV" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="In accordance with the agreed payment terms and conditions, an administration fee of min 5 EUR applies to any outstanding balance if the payment is not received in time." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="In order to use Biller API you need a token for authorisation.&lt;br&gt;Create token request returns a token, which will expire in 2 hours. " xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Insert Element" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Interest percentage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Internal invoice ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice amount incl. tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice date" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice due sent at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice due sent?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice event" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice events" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice payment" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice payments" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice {obj.uuid} was marked settled already." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoice {obj.uuid} was marked unsettled already." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Invoices" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is billing address?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is main address?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is paid?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is reconciliation account?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is refunded?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Is shipping address?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="It appears that you have not yet paid for your order from %(seller_name)s with Biller. Since the new payment term has expired, we have added additional administration fees to the outstanding balance." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="It appears that you have not yet paid for your order from %(seller_name)s with Biller. Since the new payment term has expired, we have added administration fees to the outstanding balance." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="JSON field" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="JWT Tokens" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Label_Address" xml:space="preserve">
+		<value>住所</value>
+	</data>
+	<data name="Label_AdminCosts" xml:space="preserve">
+		<value>管理費</value>
+	</data>
+	<data name="Label_AdvanceAmount" xml:space="preserve">
+		<value>前払い金額</value>
+	</data>
+	<data name="Label_AdvanceMoreInfoRef" xml:space="preserve">
+		<value>次のページであなたの進歩についての詳細情報。</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromInvoice" xml:space="preserve">
+		<value>この和解から差し引いた前払い金の概要</value>
+	</data>
+	<data name="Label_AdvancesDeductedFromNextInvoice" xml:space="preserve">
+		<value>次の決済から差し引かれる前払金の概要</value>
+	</data>
+	<data name="Label_Amount" xml:space="preserve">
+		<value>額</value>
+	</data>
+	<data name="Label_AmountExclVat" xml:space="preserve">
+		<value>金額（税抜き）</value>
+	</data>
+	<data name="Label_AmountInclVat" xml:space="preserve">
+		<value>金額（税込）</value>
+	</data>
+	<data name="Label_Attention" xml:space="preserve">
+		<value>注意</value>
+	</data>
+	<data name="Label_BalanceOrigin" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の残高がまだあります</value>
+	</data>
+	<data name="Label_BankAccount" xml:space="preserve">
+		<value>口座番号：</value>
+	</data>
+	<data name="Label_BeginMeasurement" xml:space="preserve">
+		<value>初読</value>
+	</data>
+	<data name="Label_ChangedAdvanceApplyDate" xml:space="preserve">
+		<value>この前払い額&lt;span style="font-weight:bold;"&gt; {{ next_advance_date }} の次の前払いから適用されます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedAdvanceInfo" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様、前払い額が&lt;span style="font-weight:bold;"&gt;に変更されました</value>
+	</data>
+	<data name="Label_ChangedAdvanceTitle" xml:space="preserve">
+		<value>前払い金額が変更されました！</value>
+	</data>
+	<data name="Label_ChangedIbanInfo" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様、IBAN が&lt;span style="font-weight:bold;"&gt; {{ customer.account_number }} に変更されました。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_ChangedIbanTitle" xml:space="preserve">
+		<value>IBAN が変更されました。</value>
+	</data>
+	<data name="Label_ChangedPaymentInfo" xml:space="preserve">
+		<value>請求書は&lt;span style="font-weight:bold;"&gt; {{ customer.paymentMethod }} によって支払われます。 &lt;/span&gt;これから。</value>
+	</data>
+	<data name="Label_ChangedPaymentTitle" xml:space="preserve">
+		<value>お支払い方法が変わりました！</value>
+	</data>
+	<data name="Label_ChangedibanCorrect" xml:space="preserve">
+		<value>この番号が正しいことを確認してください。アカウントへの、またはアカウントからの今後の支払いは、この IBAN を通じて行われます。</value>
+	</data>
+	<data name="Label_ClosingGreeting" xml:space="preserve">
+		<value>敬具</value>
+	</data>
+	<data name="Label_Collection" xml:space="preserve">
+		<value>債権回収メッセージ</value>
+	</data>
+	<data name="Label_CollectionMessage" xml:space="preserve">
+		<value>支払いリクエストにもかかわらず、以下の請求書はまだ支払われていません。</value>
+	</data>
+	<data name="Label_CollectionTitle" xml:space="preserve">
+		<value>債権回収メッセージ</value>
+	</data>
+	<data name="Label_Consumption" xml:space="preserve">
+		<value>消費</value>
+	</data>
+	<data name="Label_ContactDetailSubtitle" xml:space="preserve">
+		<value>ご質問や情報については、以下までお問い合わせください。</value>
+	</data>
+	<data name="Label_ContactDetails" xml:space="preserve">
+		<value>連絡先の詳細</value>
+	</data>
+	<data name="Label_ContactIfIncorrect" xml:space="preserve">
+		<value>これらのデータが正しくない場合は、お問い合わせください。</value>
+	</data>
+	<data name="Label_ContractNumber" xml:space="preserve">
+		<value>契約番号</value>
+	</data>
+	<data name="Label_ContractTerminatedContent" xml:space="preserve">
+		<value>あなたの契約は終了しました。</value>
+	</data>
+	<data name="Label_ContractTerminatedSubtitle" xml:space="preserve">
+		<value>いつもご愛顧いただきありがとうございます</value>
+	</data>
+	<data name="Label_ContractTerminatedTitle" xml:space="preserve">
+		<value>あなたの契約は終了しました</value>
+	</data>
+	<data name="Label_ContractWelcomeContent" xml:space="preserve">
+		<value>契約が締結されましたので、安心してサービスをご利用いただけます。</value>
+	</data>
+	<data name="Label_ContractWelcomeHalfYearlyInvoice" xml:space="preserve">
+		<value>次の半年ごとの請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_ContractWelcomeMonthlyInvoice" xml:space="preserve">
+		<value>毎月 {{ contract.billing_details.invoice_day }} に毎月の請求書を受け取ります</value>
+	</data>
+	<data name="Label_ContractWelcomeNextAdvance" xml:space="preserve">
+		<value>数日後に最初の前払い金を受け取ります。</value>
+	</data>
+	<data name="Label_ContractWelcomeQuarterlyInvoice" xml:space="preserve">
+		<value>次の四半期ごとの請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_ContractWelcomeSubtitle" xml:space="preserve">
+		<value>これで正式に引っ越しました</value>
+	</data>
+	<data name="Label_ContractWelcomeTitle" xml:space="preserve">
+		<value>いらっしゃいませ！</value>
+	</data>
+	<data name="Label_ContractWelcomeYearlyInvoice" xml:space="preserve">
+		<value>次の年次請求書は {{ date.to_string next_invoice_date ` %d /%m/%Y` }} に届きます</value>
+	</data>
+	<data name="Label_CreditTransferMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までに上記の合計金額を&lt;span style="font-weight:bold;color:black;"&gt; ="font-weight:bold;" に支払ってください。 &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.bank_account | ibanformatter }} &lt;/span &gt; &lt;span style="font-weight:bold;color:black;"&gt; {{ organization.description }} &lt;/span &gt;の名前で、次の支払い参照を記載: &lt;span style="font-weight:bold;color:black;"&gt; {{invoice.payment_reference}} &lt;/span &gt; .</value>
+	</data>
+	<data name="Label_CreditnoteReference" xml:space="preserve">
+		<value>クレジット</value>
+	</data>
+	<data name="Label_CurrentInvoice" xml:space="preserve">
+		<value>(現在の請求書)</value>
+	</data>
+	<data name="Label_CustomerAccountNumber" xml:space="preserve">
+		<value>顧客番号：</value>
+	</data>
+	<data name="Label_CustomerContractNumber" xml:space="preserve">
+		<value>契約番号:</value>
+	</data>
+	<data name="Label_CustomerPortal" xml:space="preserve">
+		<value>請求書は、</value>
+	</data>
+	<data name="Label_CustomerService" xml:space="preserve">
+		<value>顧客サービス</value>
+	</data>
+	<data name="Label_Date" xml:space="preserve">
+		<value>日にち</value>
+	</data>
+	<data name="Label_Description" xml:space="preserve">
+		<value>説明</value>
+	</data>
+	<data name="Label_Details" xml:space="preserve">
+		<value>詳細</value>
+	</data>
+	<data name="Label_EmailCreditTransfer" xml:space="preserve">
+		<value>&lt;span style="font-weight: bold;"&gt;の未払いの請求書があります</value>
+	</data>
+	<data name="Label_EmailCreditTransferWhen" xml:space="preserve">
+		<value>&lt;span style="font-weight: bold;"&gt; {{ date.to_string Invoice.due_date ' %d /%m/%Y' }} &lt;/span&gt;までにこの金額をお支払いください</value>
+	</data>
+	<data name="Label_EmailDirectDebit" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;"&gt;の量が</value>
+	</data>
+	<data name="Label_EmailPaymentCollectionDescription" xml:space="preserve">
+		<value>支払いリクエストにもかかわらず、以下の請求書はまだ支払われていません。</value>
+	</data>
+	<data name="Label_EmailRefund" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の払い戻しを受ける権利があります</value>
+	</data>
+	<data name="Label_EmailRefundPartially" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;"&gt;の払い戻しを利用しました</value>
+	</data>
+	<data name="Label_EmailRefundWhen" xml:space="preserve">
+		<value>数営業日以内に、 &lt;span style="font-weight:bold;"&gt;の金額を受け取ります。</value>
+	</data>
+	<data name="Label_EmailTransferredTo" xml:space="preserve">
+		<value>転送先:</value>
+	</data>
+	<data name="Label_EndDate" xml:space="preserve">
+		<value>終了日</value>
+	</data>
+	<data name="Label_EndMeasurement" xml:space="preserve">
+		<value>読み終わり</value>
+	</data>
+	<data name="Label_EvolutionOfAdvance" xml:space="preserve">
+		<value>進撃の歴史</value>
+	</data>
+	<data name="Label_EvolutionOfTaxes" xml:space="preserve">
+		<value>拠出金と納税履歴</value>
+	</data>
+	<data name="Label_ExclVat" xml:space="preserve">
+		<value>除外</value>
+	</data>
+	<data name="Label_ExternalContractReference" xml:space="preserve">
+		<value>あなたの参照</value>
+	</data>
+	<data name="Label_Footer" xml:space="preserve">
+		<value>{{ organization.description }} - {{ organization.address.street_name}} {{ organization.address.street_number}}{{ organization.address.street_number_addition}}, {{ organization.address.postal_code}} {{ organization.address .city}} - {{ organization.email_address }} &lt;/br&gt; {{ organization.company_account_number }} - {{ organization.vat_account_number }} - IBAN {{ organization.bank_account | ibanformatter }}</value>
+	</data>
+	<data name="Label_Formula" xml:space="preserve">
+		<value>方式</value>
+	</data>
+	<data name="Label_IgnoreIfAlreadyPaid" xml:space="preserve">
+		<value>すでに金額を支払っている場合は、この通知を無視できます</value>
+	</data>
+	<data name="Label_InclVat" xml:space="preserve">
+		<value>税込</value>
+	</data>
+	<data name="Label_InfoNextAdvanceAmount" xml:space="preserve">
+		<value>前払いは、年間の消費量に基づいて再計算されます。</value>
+	</data>
+	<data name="Label_InterruptionsTelephone" xml:space="preserve">
+		<value>断線ライン</value>
+	</data>
+	<data name="Label_InvoiceAmount" xml:space="preserve">
+		<value>請求金額:</value>
+	</data>
+	<data name="Label_InvoiceDate" xml:space="preserve">
+		<value>請求書の日付</value>
+	</data>
+	<data name="Label_InvoiceDetail" xml:space="preserve">
+		<value>請求の詳細</value>
+	</data>
+	<data name="Label_InvoiceDueDate" xml:space="preserve">
+		<value>期日</value>
+	</data>
+	<data name="Label_InvoiceNumber" xml:space="preserve">
+		<value>請求書番号</value>
+	</data>
+	<data name="Label_LabelToDetails" xml:space="preserve">
+		<value>後のページで、VAT 仕様の詳細な概要を確認できます。</value>
+	</data>
+	<data name="Label_Meter" xml:space="preserve">
+		<value>メートル</value>
+	</data>
+	<data name="Label_MeterReading" xml:space="preserve">
+		<value>検針</value>
+	</data>
+	<data name="Label_MorePortal" xml:space="preserve">
+		<value>詳細については、{{ customer_portal }} をご覧ください。</value>
+	</data>
+	<data name="Label_MoveInRejectedContent" xml:space="preserve">
+		<value>入居のご相談も承りますので、お気軽にご相談ください。</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedContent" xml:space="preserve">
+		<value>順調に契約を進めていきます。</value>
+	</data>
+	<data name="Label_MoveInRequestReceivedSubtitle" xml:space="preserve">
+		<value>私達を選んで頂き有難うございます！</value>
+	</data>
+	<data name="Label_MoveInRequestRejected" xml:space="preserve">
+		<value>入居を処理できません</value>
+	</data>
+	<data name="Label_MoveOutReceivedContent" xml:space="preserve">
+		<value>当社の従業員がお客様のご要望に迅速に対応いたします。</value>
+	</data>
+	<data name="Label_MoveOutReceivedSubtitle" xml:space="preserve">
+		<value>お申し込みを受け付けました。</value>
+	</data>
+	<data name="Label_MoveOutRejectedContent" xml:space="preserve">
+		<value>お引越しのご相談も承りますので、お気軽にご相談ください。</value>
+	</data>
+	<data name="Label_MoveOutRequestRejected" xml:space="preserve">
+		<value>退去を処理できません</value>
+	</data>
+	<data name="Label_NameBeneficiary" xml:space="preserve">
+		<value>受取人の名前:</value>
+	</data>
+	<data name="Label_New" xml:space="preserve">
+		<value>新しい：</value>
+	</data>
+	<data name="Label_NewOpenBalance" xml:space="preserve">
+		<value>新しい未決済残高</value>
+	</data>
+	<data name="Label_NextAdvanceAmount" xml:space="preserve">
+		<value>次回繰上金額</value>
+	</data>
+	<data name="Label_NextPaymentSct" xml:space="preserve">
+		<value>次の請求書は&lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }} に届きます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NextPaymentSdd" xml:space="preserve">
+		<value>次回のお支払いは&lt;span style="font-weight:bold;"&gt; {{ NextInvoiceDate }} に行われます。 &lt;/span&gt;</value>
+	</data>
+	<data name="Label_NoFurtherActionRequired" xml:space="preserve">
+		<value>これ以上の操作を行う必要はありません。</value>
+	</data>
+	<data name="Label_NoPaidAdvances" xml:space="preserve">
+		<value>前払い金はありません</value>
+	</data>
+	<data name="Label_NoticeOfDefaultIntro" xml:space="preserve">
+		<value>弊社の記録によると、以下の請求書は支払い期限が切れているにもかかわらず、まだ支払われていません。</value>
+	</data>
+	<data name="Label_NoticeOfDefaultMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;の合計金額をお支払いください。</value>
+	</data>
+	<data name="Label_NoticeOfDefaultTitle" xml:space="preserve">
+		<value>支払いの最終リマインダー</value>
+	</data>
+	<data name="Label_Number" xml:space="preserve">
+		<value>番号</value>
+	</data>
+	<data name="Label_Old" xml:space="preserve">
+		<value>年：</value>
+	</data>
+	<data name="Label_OpenAmount" xml:space="preserve">
+		<value>未決済額</value>
+	</data>
+	<data name="Label_OpenInvoices" xml:space="preserve">
+		<value>未払いの請求書</value>
+	</data>
+	<data name="Label_OriginalAmount" xml:space="preserve">
+		<value>元の金額</value>
+	</data>
+	<data name="Label_OurReference" xml:space="preserve">
+		<value>私たちの参照</value>
+	</data>
+	<data name="Label_Overview" xml:space="preserve">
+		<value>概要</value>
+	</data>
+	<data name="Label_OverviewOfYourConsumption" xml:space="preserve">
+		<value>消費の概要</value>
+	</data>
+	<data name="Label_Paid" xml:space="preserve">
+		<value>有料</value>
+	</data>
+	<data name="Label_PaidAdvances" xml:space="preserve">
+		<value>概要前払い</value>
+	</data>
+	<data name="Label_PaidAdvancesNotTakenInAccount" xml:space="preserve">
+		<value>支払われた前払いはまだ考慮されていません</value>
+	</data>
+	<data name="Label_PayAsFastAsPossible" xml:space="preserve">
+		<value>お早めに下記金額をご決済ください。</value>
+	</data>
+	<data name="Label_PayBeforeExtraCosts" xml:space="preserve">
+		<value>記載された合計金額は、遅くとも&lt;span style="font-weight:bold;"&gt; {{ date.to_string next_step.execute_at ` %d /%m/%Y` }} &lt;/span&gt;までにアカウント番号に入金する必要があります。 &lt;/span&gt; .</value>
+	</data>
+	<data name="Label_PayToAvoidAdditionalCosts" xml:space="preserve">
+		<value>余分な費用を避けるために時間通りに支払う</value>
+	</data>
+	<data name="Label_PaymentInformation" xml:space="preserve">
+		<value>支払情報</value>
+	</data>
+	<data name="Label_PaymentMethod" xml:space="preserve">
+		<value>支払方法</value>
+	</data>
+	<data name="Label_PaymentReference" xml:space="preserve">
+		<value>支払参照:</value>
+	</data>
+	<data name="Label_Period" xml:space="preserve">
+		<value>限目</value>
+	</data>
+	<data name="Label_PersonalInformation" xml:space="preserve">
+		<value>あなたの個人情報</value>
+	</data>
+	<data name="Label_Portal" xml:space="preserve">
+		<value>カスタマーポータル</value>
+	</data>
+	<data name="Label_Portal_Registration_Link" xml:space="preserve">
+		<value>カスタマー ポータルの登録リンク</value>
+	</data>
+	<data name="Label_PreviouslyAdvanced" xml:space="preserve">
+		<value>前に進んだ</value>
+	</data>
+	<data name="Label_PriceComponent" xml:space="preserve">
+		<value>価格要素</value>
+	</data>
+	<data name="Label_PriceComponents" xml:space="preserve">
+		<value>価格構成要素</value>
+	</data>
+	<data name="Label_Quantity" xml:space="preserve">
+		<value>量</value>
+	</data>
+	<data name="Label_RefundAmount" xml:space="preserve">
+		<value>返金額</value>
+	</data>
+	<data name="Label_RemainingAmount" xml:space="preserve">
+		<value>残量:</value>
+	</data>
+	<data name="Label_RemainingInvoiceAmount" xml:space="preserve">
+		<value>この請求書の残高</value>
+	</data>
+	<data name="Label_ReminderIntro" xml:space="preserve">
+		<value>弊社の記録によると、以下の請求書は支払い期限が切れているにもかかわらず、まだ支払われていません。</value>
+	</data>
+	<data name="Label_ReminderPaymentMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;の合計金額をお支払いください。</value>
+	</data>
+	<data name="Label_ReminderTitle" xml:space="preserve">
+		<value>リマインダー</value>
+	</data>
+	<data name="Label_RequestRecieved" xml:space="preserve">
+		<value>リクエストを受け取りました</value>
+	</data>
+	<data name="Label_Salutation" xml:space="preserve">
+		<value>{{ customer.short_display_name }} 様</value>
+	</data>
+	<data name="Label_ServicedLocation" xml:space="preserve">
+		<value>位置</value>
+	</data>
+	<data name="Label_SignDate" xml:space="preserve">
+		<value>署名日:</value>
+	</data>
+	<data name="Label_SignedDocuments" xml:space="preserve">
+		<value>署名済み文書</value>
+	</data>
+	<data name="Label_StartDate" xml:space="preserve">
+		<value>開始日</value>
+	</data>
+	<data name="Label_Status" xml:space="preserve">
+		<value>状態</value>
+	</data>
+	<data name="Label_TextForInvoicesWithoutSurprise" xml:space="preserve">
+		<value>あなたと一緒に、不愉快な驚きのない和解に取り組みます。</value>
+	</data>
+	<data name="Label_Totaal" xml:space="preserve">
+		<value>合計</value>
+	</data>
+	<data name="Label_TotaalExclVat" xml:space="preserve">
+		<value>合計を除く</value>
+	</data>
+	<data name="Label_TotaalInclVat" xml:space="preserve">
+		<value>合計</value>
+	</data>
+	<data name="Label_Total" xml:space="preserve">
+		<value>合計</value>
+	</data>
+	<data name="Label_TotalExclVAT" xml:space="preserve">
+		<value>合計（VATを除く）</value>
+	</data>
+	<data name="Label_TotalInvoiceAmountInclVAT" xml:space="preserve">
+		<value>請求書の合計金額 (VAT を含む)</value>
+	</data>
+	<data name="Label_UnitPrice" xml:space="preserve">
+		<value>単価</value>
+	</data>
+	<data name="Label_UnitPriceInclVat" xml:space="preserve">
+		<value>単価（税込）</value>
+	</data>
+	<data name="Label_Unpaid" xml:space="preserve">
+		<value>未払い</value>
+	</data>
+	<data name="Label_VAT" xml:space="preserve">
+		<value>バット</value>
+	</data>
+	<data name="Label_VATNumber" xml:space="preserve">
+		<value>VAT番号</value>
+	</data>
+	<data name="Label_VATSpecs" xml:space="preserve">
+		<value>VAT仕様</value>
+	</data>
+	<data name="Label_WhatDidWeTakeIntoAccount" xml:space="preserve">
+		<value>何を考慮しましたか？</value>
+	</data>
+	<data name="Label_YourBalance" xml:space="preserve">
+		<value>あなたのバランス</value>
+	</data>
+	<data name="Label_YourConsumptionIncludingSeasonality" xml:space="preserve">
+		<value>あなたの消費量（季節の影響を考慮して）</value>
+	</data>
+	<data name="Label_YourCurrentContractNumber" xml:space="preserve">
+		<value>現在の契約</value>
+	</data>
+	<data name="Label_YourInvoice" xml:space="preserve">
+		<value>あなたの {{invoice.invoice_type.label}}:</value>
+	</data>
+	<data name="Label_YourOpenAmountBenifit" xml:space="preserve">
+		<value>あなたに有利なオープンバランス:</value>
+	</data>
+	<data name="Label_YourOpenAmountDisadvantage" xml:space="preserve">
+		<value>あなたはまだ次の残高を持っていました:</value>
+	</data>
+	<data name="Label_YourOpenBalance" xml:space="preserve">
+		<value>あなたの残高:</value>
+	</data>
+	<data name="Label_YourTariff" xml:space="preserve">
+		<value>あなたのレート</value>
+	</data>
+	<data name="Last name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Late fee condition" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Late fee conditions" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Limit Rules" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Link to external (seller) invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="LinkToDetails" xml:space="preserve">
+		<value>ページ2</value>
+	</data>
+	<data name="List all the orders associated to the authenticated user." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="List the Invoices" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="List the Invoices." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="List the Orders" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="List the Seller Users" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="List the Seller Users." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Locale identifier" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Make Plain Text" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Make Rich Text" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Manually matched?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as dispute refund" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as dispute write-off" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as paid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as settled" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as unpaid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as unsettled" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark invoice as write-off" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark settlement as paid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Mark settlement as sent" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Master account" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Master accounts" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Need help? Please contact %(biller_customer_support_email)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Need help? Please contact&lt;a target=&quot;_blank&quot; href=&quot;mailto:%(biller_customer_support_email)s&quot;&gt; %(biller_customer_support_email)s&lt;/a&gt;" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Next link" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No code? Please check your spam folder." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No eligible records to mark as accepted" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No eligible records to mark as paid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No eligible records to set on-hold" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No eligible records to unset on-hold" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="No, continue" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="NoIbanMessage" xml:space="preserve">
+		<value>&lt;span style="font-weight:bold;color:black;"&gt;お客様の銀行口座番号がわかりません。 &lt;/span&gt; &lt;br&gt;銀行口座番号を受け取り次第&lt;span style="font-weight:bold;color:black;"&gt;の金額を送金できます。</value>
+	</data>
+	<data name="Notes" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Number of invoices" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="OTP has been verified to the buyer" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Object type" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="On hold since" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="On hold?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order Request" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order Requests" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order captured status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order created" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order creation error" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order date" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order event" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order events" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order found" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order line" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order lines" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order lines (JSON)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order refund" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order refunds" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order request" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order request label" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order requests" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order summary" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Order total amount (cents)." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Orders" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Outstanding balance" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="PDF credit note" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="PDF invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Paid at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="PartiallyPaidMessage" xml:space="preserve">
+		<value>この請求書の一部を支払うために、有利な未払い残高が使用されました。</value>
+	</data>
+	<data name="Payment Details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment Method" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment Reference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment Status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment link duration in seconds." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment reference" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment reminder for your purchase from %(seller_brand)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment request for your purchase from %(seller_brand)s with Biller" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payment status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payments may take up to 3 days to be processed. If you have already made a payment, please disregard this email." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payout" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payout Date:" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Payout schedule" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Percentage fee" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Phone Details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Phone details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Phone number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please be aware that any further delay in payment after %(new_due_date)s will result in an extra administration fee of min 5 EUR added to your outstanding balance." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please complete the payment for this purchase before %(new_due_date)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please contact %(contact_name)s via %(contact_email)s or call %(contact_telephone)s so they can be of further assistance." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please contact %(seller_name)s via &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;mailto:%(seller_email)s&quot;&gt;%(seller_email)s&lt;/a&gt; or call &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;tel:%(seller_telephone)s&quot;&gt;%(seller_telephone)s&lt;/a&gt; so they can be of further assistance." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please correct the error below." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please correct the errors below." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please find the updated payment request in this email." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please note that if we do not receive your payment before %(new_due_date)s, the original invoice will be handed over to a debt collection agency." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please note that this is the last reminder to pay for your purchase at %(seller_name)s with order number %(order_uid)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please refer to the attachment for your complete order summary and invoice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please refer to the attachment for your complete order summary." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please use the description field for the payment reference." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Please use this verification code for your purchase with %(seller)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Positive - seller owes us, negative - we owe seller" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Postal address" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Postal/Zip-code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Previous link" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Price" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Price (ex. VAT)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Product price excl. tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Product price incl. tax" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Product tax rate percentage" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Purchase" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Purchase is approved!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Purchase refund from %(seller_brand)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Qty" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Quantity" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Questions about payments and reminders?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Questions about the purchase, delivery or returns?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Reason" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Recipient e-mail" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Refresh token" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Refund objects (credit notes) created." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Refund the Order" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="RefundMessage" xml:space="preserve">
+		<value>次の数日で、 &lt;span style="font-weight:bold;color:black;"&gt;の量</value>
+	</data>
+	<data name="RefundUsedToSettleMessage" xml:space="preserve">
+		<value>この請求書の返金額は、未決済残高の決済に使用されました。</value>
+	</data>
+	<data name="Refundable Invoice lines" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Refundable Invoices" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Refunded at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Reg no." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Regardless of the refund method used, the 200 response (and the credit notes created) will have the same structure. Each entry in the `refunds` list represents a credit note." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Region" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Release Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Releases (amount relased from holded status. included to sale amount)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Repay" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Repay Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Repays (failed payments from previous settlements. included to sale amount)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Report data" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Representative" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Representative email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Representatives" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Request META" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Request payload example" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Resend code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Response example" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Retrieve the status of an Order." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Return" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Return Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Returns (goods/services returned by customer)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Risk email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="SEON version" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="SEON_uid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sale Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sale amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sales (Captured Orders)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Score Rules" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Second reminder sent at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Second reminder sent?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Secret key" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Secrets" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Select buying company" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller Users" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller company name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller credit note:" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller does not accept this currency" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller invoice number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller profile" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller profile does not exist" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller profiles" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller user" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller users" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Seller's invoice number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sellers" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sendgrid event" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Sendgrid events" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Set invoice on-hold" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Set or update external (seller) invoice ID or invoice URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Set the external (seller) invoice ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Settled?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="SettledMessage" xml:space="preserve">
+		<value>この請求書の決済には、有利な未決済残高が使用されました。 &lt;br&gt; &lt;span style="font-weight:bold;"&gt;これ以上の操作は必要ありません。 &lt;/span&gt;</value>
+	</data>
+	<data name="Settlement Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Settlement Report" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Settlement Status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Settlement/finance department email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address city" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address country" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address house number" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address house number suffix" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address post/Zip-code" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address region" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address street" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address street address 1" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Shipping address street address 2" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Signal a problem" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Simultaneously, %(seller_company)s has transferred the ownership of that claim to %(biller_company_name)s (ceded)." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Status" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Street" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Street Address 1" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Street Address 2" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Street name, house number and house number suffix." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Subtotal" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Success message." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully generated settlement &lt;a href='{reverse('admin:invoice_settlement_change', args=[settlement.pk])}' target='_blank'&gt;{settlement.payment_reference}&lt;/a&gt;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully generated settlement reports." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as dispute refund." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as dispute write-off." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as paid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as settled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as unpaid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as unsettled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked invoice {obj.uuid} as write-off. " xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked settlement {settlement.id} as paid." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked settlement {settlement.id} as sent." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked {marked_invoices} invoices as settled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully marked {marked_refunds} refunds as settled." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully set invoice {obj.uuid} on-hold." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Successfully unset invoice {obj.uuid} on-hold." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Supported currencies" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Supported currency" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Tax Amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Tax amount (cents) in discount." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Terms &amp; Privacy" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Thank you for your purchase from %(seller_brand)s which you have placed on behalf of %(buyer_company)s!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Thank you for your purchase from %(seller_brand)s which you have placed on behalf of %(buyer_company)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Thank you for your purchase from %(seller_url)s which you have placed on behalf of %(buyer_company)s!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Thank you for your purchase from &lt;a target=&quot;_blank&quot; style=&quot;color: #7d55b9;&quot; href=&quot;%(seller_url)s&quot;&gt;%(seller_url)s&lt;/a&gt; which you have placed on behalf of %(buyer_company)s!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The &lt;a target=&quot;_blank&quot; style=&quot;color: #47A09A;&quot; href=&quot;%(biller_terms_and_conditions_url)s&quot;&gt;general payment conditions&lt;/a&gt; of %(biller_company_name)s apply to all payments." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The general payment conditions of %(biller_company_name)s (%(biller_terms_and_conditions_url)s) apply to all payments." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The original payment request has been sent to you in an earlier email." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The phone number '%(phone_number)s' is not valid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The postcode '%(postal_code)s' is not valid for %(country)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The purchase order you requested does not exist." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The purchase order you requested has timed out." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The registration number '%(registration_number)s' is not valid for %(country)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="The response returns a list of Invoices where a `refundable_quantity` and a `total_refundable_amount` is shown for each invoice line.&lt;br&gt;The `refundable_quantity` is calculated as `quantity` minus the _already refunded quantity_.&lt;br&gt;The `total_refundable_amount` fields are calculated per line based on the `refundable_quantity` field and the `product_price` fields, being `product_price` the price per unit" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="There is already a settlement in progress. Finish it first. &lt;a href='{reverse('admin:invoice_settlement_change', args=[settlement.pk])}' target='_blank'&gt;{settlement.payment_reference}&lt;/a&gt;." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This code will expire in 15 minutes." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This credit note relates to order %(order_number)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This fee will be taken per each translaction. Value stored in currency units, not in cents (i.e. euros)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This is a notification that your purchase with order number %(order_number)s from %(seller_brand)s with Biller has been fully refunded" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This is a notification that your purchase with order number %(order_number)s from %(seller_brand)s with Biller has been partially refunded" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This is the `capture status` of Order." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="This is the `status` of the Order.\n Order statuses: \n" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Time details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="To date we have not received payment for you purchase at %(seller_name)s with Biller." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="To make sure it is really you, we’ve sent a code to &lt;span class=&quot;otp_email_address&quot;&gt;%(email)s&lt;/span&gt;" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total Costs and Fees" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total amount due in currency units" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total amount in currency units" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total amount to pay" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total excl. VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total incl. VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total invoice amount" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total order amount in currency units" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Total_VAT_amount" xml:space="preserve">
+		<value>付加価値税合計</value>
+	</data>
+	<data name="Transaction Variables" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Transaction state at creation" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="URLs" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID of referring object we send webhook" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID of the Invoice (alias of the `uuid`)." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID of the Invoice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID of the Order." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="UUID of the invoice refund relates to" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Unable to find your company" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Unfortunately you cannot pay with Biller in your country yet" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Unfortunately, we are unable to approve this purchase." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Unique invoice ref (for payments)" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Unset invoice on-hold" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Update the Invoice" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Updated At" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Updated at" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Upload CSV" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Url we sent webhook to" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="User" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="VAT on Fees" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="VAT-id" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="VAT_Percentage" xml:space="preserve">
+		<value>VAT パーセンテージ</value>
+	</data>
+	<data name="Valid registration number is required for %(country)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Value %(value)r is not a valid choice." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Variable Fee" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Variables" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Verify your email" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="We use [JWT tokens](https://jwt.io/) for authentication. Token expires in 2 hours, refresh token expires in 1 day." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop ID" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop ID configured by Biller" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop cancel URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop error URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop not known" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop pending URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop root URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop success URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Webshop webhook URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="Website URL" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="What is Biller?" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="With VAT" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="You need JavaScript enabled on your browser to be able to use Biller!" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="You should receive an invoice directly from the seller, however, the payment can therefore only be made to %(biller_company_name)s" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="You should receive an invoice directly from the seller, however, the payment can therefore only be made to %(biller_company_name)s." xml:space="preserve">
+		<value/>
+	</data>
+	<data name="accpetBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="addBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.label" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.message.error" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.message.success" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.pass" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.password.forget" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.password.reset" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.login.text" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.menu.terms" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.name" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.register.message.error" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.register.message.success" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.register.text" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="app.users.active" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="blue" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="cancelBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="deleteBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="details" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="five" xml:space="preserve">
+		<value>Send</value>
+	</data>
+	<data name="four" xml:space="preserve">
+		<value>You will be notified by email</value>
+	</data>
+	<data name="id_number" xml:space="preserve">
+		<value>200</value>
+	</data>
+	<data name="id_string" xml:space="preserve">
+		<value>200</value>
+	</data>
+	<data name="logInBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="logOutBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="one" xml:space="preserve">
+		<value>This car has been sold</value>
+	</data>
+	<data name="one_b" xml:space="preserve">
+		<value>This car has been sold now</value>
+	</data>
+	<data name="quitBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="removeBtn" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="six" xml:space="preserve">
+		<value>The iteam is not empty and it does not meet the email validation rules</value>
+	</data>
+	<data name="street address 2 includes additional address info like apartment number, suite, etc" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="street address includes street name, house number, house suffix, etc" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="the webshop" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="three" xml:space="preserve">
+		<value>Email Me</value>
+	</data>
+	<data name="two" xml:space="preserve">
+		<value>Call Me</value>
+	</data>
+	<data name="{num_records} records have been marked as accepted" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="{num_records} records have been marked as paid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="{num_records} records have been marked as unpaid" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="{num_records} records have been set on-hold" xml:space="preserve">
+		<value/>
+	</data>
+	<data name="{num_records} records have been unset on-hold" xml:space="preserve">
+		<value/>
+	</data>
+</root>
